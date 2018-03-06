@@ -11,15 +11,16 @@ if(activate) {
 	highlight_board(argument0, noone); // reset highlight
 	set_active(argument1, activate);
 	
-	possible_move(argument0, argument1);
+	var paths = possible_move(argument0, argument1);
 	
 	//to_highlight = extract_destinations(board);
 	with(argument0) {
-		for (var i = 0; i < array_length_1d(path); ++i) {
-			if(squares[path[i, 0], path[i, 1]].piece == noone){
-				set_active(squares[path[i, 0], path[i, 1]], true);		
+		for (var i = 0; i < array_height_2d(paths); ++i) {
+			for (var j = 0; j<array_length_2d(paths, i); j++) {
+				
+				set_active(paths[i, j], true);		
+				
 			}
-					
 		}
 	}
 	

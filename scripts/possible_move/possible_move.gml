@@ -11,8 +11,9 @@ var tmp = noone;
 var coords = noone
 coords[0] = piece.coordX;
 coords[1] = piece.coordY;
-board.path = noone;
+
+var paths = noone;
+paths[0,0] = noone;
 
 //launch recursion
-possible_move_recursive(board, color, coords, noone, noone, true);
-show_debug_message(board.path);
+return possible_move_recursive(board, color, coords, noone, -1, paths);
