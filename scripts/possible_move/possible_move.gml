@@ -11,24 +11,8 @@ var tmp = noone;
 var coords = noone
 coords[0] = piece.coordX;
 coords[1] = piece.coordY;
-var paths = noone;
-paths[0] = instance_create_depth(0, 0, 100, oPath);
-with(paths[0]){
-	visited[0] = board.squares[piece.coordX, piece.coordY];	
-}
-
-
+board.path = noone;
 
 //launch recursion
-var dirs = global.directions;
-for(var i=0;i<array_length_1d(dirs);i++) {
-	var next_coords = neigh_coord(coords[0], coords[1], dirs[i]);
-	tmp = possible_move_recursive(board, color, paths, next_coords, dirs[i], false, true);	
-	paths = concatenate_array_1d(paths, tmp);
-}
-
-		
-
-
-
-return paths;
+possible_move_recursive(board, color, coords, noone, noone, true);
+show_debug_message(board.path);

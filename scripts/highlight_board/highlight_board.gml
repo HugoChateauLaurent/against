@@ -11,18 +11,18 @@ if(activate) {
 	highlight_board(argument0, noone); // reset highlight
 	set_active(argument1, activate);
 	
-	with(board){
-		paths = possible_move(argument0, argument1);
-		paths = remove_redundancy(paths);
-		show_debug_message("paths :");
-		show_debug_message(paths);
-	}
-	to_highlight = extract_destinations(board);
-	show_debug_message(board.paths);
+	possible_move(argument0, argument1);
 	
-	for (var i = 0; i < array_length_1d(to_highlight); ++i) {
-		set_active(to_highlight[i], true);				
+	//to_highlight = extract_destinations(board);
+	with(argument0) {
+		for (var i = 0; i < array_length_1d(path); ++i) {
+			if(squares[path[i, 0], path[i, 1]].piece == noone){
+				set_active(squares[path[i, 0], path[i, 1]], true);		
+			}
+					
+		}
 	}
+	
 }
 
 //unhighlight
