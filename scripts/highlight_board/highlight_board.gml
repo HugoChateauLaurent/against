@@ -1,4 +1,4 @@
-/// @function highlight_board(board, piece)
+	/// @function highlight_board(board, piece)
 /// @description highlights the board if given a piece and unhighlight everything if not
 /// @param {real} id_board The unique instance ID value of the board
 /// @param {real} id_piece The unique instance ID value of the reference piece
@@ -17,8 +17,9 @@ if(activate) {
 	with(argument0) {
 		for (var i = 0; i < array_height_2d(paths); ++i) {
 			for (var j = 0; j<array_length_2d(paths, i); j++) {
-				
-				set_active(paths[i, j], true);		
+				if(paths[i, j].piece == noone) {
+					set_active(paths[i, j], true);
+				}
 				
 			}
 		}

@@ -15,6 +15,8 @@ var dir = argument3;
 var paths = argument5;
 var eating = argument4;
 
+var reference_index = array_height_2d(paths)-1;
+
 if(eating == 1) {
 	var nb_dirs = 1;	
 } else if(eating == 0) {
@@ -23,11 +25,11 @@ if(eating == 1) {
 	var nb_dirs = 2;	
 }
 var dirs = forward_dir(dir, color, nb_dirs); //find directions
-
-var at_least_one = false;
+show_debug_message("taille : "+string(array_length_1d(dirs)));
 
 
 for(var i=0; i<array_length_1d(dirs); i++) {
+	show_debug_message("aaadd");
 	eating = argument4;
 	var recursion = true;
 	var positionX = argument2[0];
@@ -60,22 +62,16 @@ for(var i=0; i<array_length_1d(dirs); i++) {
 	
 		
 		if(add) {
-			var index = array_height_2d(paths);
-			if(!at_least_one) {
-				index -= 1;
+			var index1 = array_height_2d(paths);
+			for(var index2 = 0; index2<array_length_2d(paths, reference_index);index2++) {
+				paths[index1, index2] = paths[reference_index, index2]
 			}
-			
-			at_least_one = true;
 		
-			paths[index, array_length_2d(paths, index)] = board.squares[positionX,positionY];
+			paths[index1, array_length_2d(paths, index1)] = board.squares[positionX,positionY];
 			if(recursion) {
 				paths = possible_move_recursive(board, color, next_coords, dirs[i], eating, paths);
 			}
 		}		
 	}
-}
-
-if(!at_least_one) {
-		
 }
 return paths;

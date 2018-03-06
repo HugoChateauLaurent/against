@@ -16,4 +16,8 @@ var paths = noone;
 paths[0,0] = noone;
 
 //launch recursion
-return possible_move_recursive(board, color, coords, noone, -1, paths);
+paths = possible_move_recursive(board, color, coords, noone, -1, paths);
+paths = remove_array_2d(paths, -1, 0);
+show_debug_message(paths);
+//paths = extract_best_paths(paths);
+return paths;
