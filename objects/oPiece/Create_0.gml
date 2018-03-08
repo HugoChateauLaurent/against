@@ -4,3 +4,5 @@
 //enlarge piece
 image_xscale = global.piece_size;
 image_yscale = global.piece_size;
+
+image_angle = random(360);
