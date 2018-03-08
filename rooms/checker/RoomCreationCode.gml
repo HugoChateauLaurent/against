@@ -1,17 +1,18 @@
 //couleur d'une pièce active
 global.active_piece_color = make_colour_rgb(50, 180, 50);
-global.active_square_color = make_colour_rgb(50, 180, 50);
+global.active_square_color = global.active_piece_color;
 
 //couleur d'une pièce active
-global.path_piece_color = make_colour_rgb(86, 120, 161);
-global.path_square_color = make_colour_rgb(86, 120, 161);
+var a=1.5;
+global.path_piece_color = make_colour_rgb(86*a, 120*a, 161*a);
+global.path_square_color = global.path_piece_color;
 
 //couleurs pièces
 global.black_piece_color = make_colour_rgb(0, 0, 0);
-global.white_piece_color = make_colour_rgb(255, 255, 204);
+global.white_piece_color = make_colour_rgb(255, 255, 200);
 
 //couleurs cases
-global.black_square_color = make_colour_rgb(50, 50, 50);
+global.black_square_color = make_colour_rgb(110, 110, 110);
 global.white_square_color= make_colour_rgb(255, 255, 255);
 
 //codes des directions
