@@ -3,6 +3,7 @@
 /// @param {real} id_board The unique instance ID value of the board
 /// @param {real} id_piece The unique instance ID value of the reference piece
 
+var board = argument0;
 var activate = argument1 != noone;
 var to_highlight = noone;
 
@@ -12,17 +13,28 @@ if(activate) {
 	set_active(argument1, activate);
 	
 	var paths = possible_move(argument0, argument1);
-	
-	//to_highlight = extract_destinations(board);
 	with(argument0) {
-		for (var i = 0; i < array_height_2d(paths); ++i) {
-			for (var j = 0; j<array_length_2d(paths, i); j++) {
-				if(paths[i, j].piece == noone) {
-					set_active(paths[i, j], true);
-				}
+		var i = 0;
+		while(i < array_height_2d(paths)) {
+			if(paths[i, array_length_2d(paths, i)-1].piece == noone) {
+				set_active(paths[i, array_length_2d(paths, i)-1], true);
+				for (var j = 0; j<array_length_2d(paths, i)-1; j++) {
+					if(paths[i, j].piece == noone) {
+						paths[i, j].image_blend = global.path_square_color;
+					} else {
+						paths[i, j].piece.image_blend = global.path_piece_color;
+					}
 				
+				}
 			}
+			else {
+				paths = remove_array_2d(paths, i, -1);
+				i-=1;	
+			}
+			
+			i+=1;
 		}
+		show_debug_message(paths);
 	}
 	
 }

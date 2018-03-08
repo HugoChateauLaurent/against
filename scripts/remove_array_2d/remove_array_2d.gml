@@ -12,16 +12,19 @@ var nb_elts1 = 0;
 var nb_elts2 = 0;
 
 for(var j = 0;j<array_height_2d(arr);j++) {
-	if(j!=index1 || index1 == -1){
-		nb_elts1 += 1;
+	if(j!=index1){
+		
 		nb_elts2 = 0;
 		for(var i = 0; i<array_length_2d(arr, j); i++) {
-			if(i!=index2 || index2 == -1) {
+			if(i!=index2) {
+				show_debug_message(string(nb_elts1)+" "+string(nb_elts2));
 				new[nb_elts1, nb_elts2] = arr[j, i];
 				nb_elts2+=1;
 			}				
-		}			
+		}	
+		if(array_length_2d(new, nb_elts1) > 0) nb_elts1 += 1;
 	}		
+	
 }
 
 return new;

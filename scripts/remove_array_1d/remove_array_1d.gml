@@ -12,8 +12,7 @@ for(var j = 0;j<array_length_1d(arr);j++) {
 	if(j!=index){
 		new[nb_elts] = arr[j];
 		nb_elts+=1;
-	}
-		
+	}		
 }
 
 return new;
