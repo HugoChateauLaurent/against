@@ -25,11 +25,9 @@ if(eating == 1) {
 	var nb_dirs = 2;	
 }
 var dirs = forward_dir(dir, color, nb_dirs); //find directions
-show_debug_message("taille : "+string(array_length_1d(dirs)));
 
 
 for(var i=0; i<array_length_1d(dirs); i++) {
-	show_debug_message("aaadd");
 	eating = argument4;
 	var recursion = true;
 	var positionX = argument2[0];

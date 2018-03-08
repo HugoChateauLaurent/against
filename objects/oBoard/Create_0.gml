@@ -100,6 +100,13 @@ for(var i=nb_squares-1;i>=nb_squares-2;--i){
 	}
 }
 
+
+
 player = false; //it's player 0's turn
+active_piece = noone;
+scores[0] = 0;
+scores[1] = 0;
+score = instance_create_depth(10,10,-20, oScore);
+score.board = id;
 
 

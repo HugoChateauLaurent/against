@@ -17,7 +17,6 @@ for(var j = 0;j<array_height_2d(arr);j++) {
 		nb_elts2 = 0;
 		for(var i = 0; i<array_length_2d(arr, j); i++) {
 			if(i!=index2) {
-				show_debug_message(string(nb_elts1)+" "+string(nb_elts2));
 				new[nb_elts1, nb_elts2] = arr[j, i];
 				nb_elts2+=1;
 			}				
