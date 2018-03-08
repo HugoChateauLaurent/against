@@ -22,9 +22,9 @@ if(eating == 1) {
 } else if(eating == 0) {
 	var nb_dirs = 3;
 } else {
-	var nb_dirs = 2;	
+	var nb_dirs = 4;	
 }
-var dirs = forward_dir(dir, color, nb_dirs); //find directions
+var dirs = forward_dir(dir, nb_dirs); //find directions
 
 
 for(var i=0; i<array_length_1d(dirs); i++) {
@@ -54,6 +54,9 @@ for(var i=0; i<array_length_1d(dirs); i++) {
 			add = true;
 			if(eating == -1) {
 				recursion = false;	
+				if((color && (dirs[i] == 2 || dirs[i] == -1)) || (!color && (dirs[i] == -2 || dirs[i] == 1))){
+					add = false;	
+				}
 			}
 			eating = 0;
 		}
