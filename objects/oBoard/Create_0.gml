@@ -102,7 +102,7 @@ for(var i=nb_squares-1;i>=nb_squares-2;--i){
 
 
 
-player = false; //it's player 0's turn
+player = true; //it's player 0's turn
 active_piece = noone;
 scores[0] = 0;
 scores[1] = 0;
