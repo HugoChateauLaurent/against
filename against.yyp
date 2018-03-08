@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "241d7843-584a-43d8-b67b-554911c0afd7",
+            "Value": {
+                "id": "7b37517a-c734-431c-aadc-b2fc3675b9bd",
+                "resourcePath": "views\\241d7843-584a-43d8-b67b-554911c0afd7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "25fb8942-0f7f-4c94-aa04-bf93b79371ea",
             "Value": {
                 "id": "f8bf2904-bdcc-48f6-966f-a723a51af5d2",
@@ -335,6 +343,14 @@
             }
         },
         {
+            "Key": "b044afcf-82b3-4154-9770-09eb015c6312",
+            "Value": {
+                "id": "f1fa0509-e508-49db-9806-5dec3a284cfe",
+                "resourcePath": "scripts\\ma_mathes_left\\ma_mathes_left.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b1b886a3-599c-47f8-9cc8-eaec51ff90ce",
             "Value": {
                 "id": "35aa00e0-966b-4172-9343-826bc095ae44",
@@ -363,6 +379,14 @@
             "Value": {
                 "id": "44f2f1ae-9387-4f3e-98ee-92c8b8415508",
                 "resourcePath": "scripts\\array_2d_to_1d\\array_2d_to_1d.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c76db028-a18a-4f0d-86f2-37467d68a28c",
+            "Value": {
+                "id": "7ae469dd-7a3b-494c-a2e3-07ee95bf0072",
+                "resourcePath": "scripts\\ma_can_remove\\ma_can_remove.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -489,7 +513,9 @@
         "ca5775fc-cd65-47f9-9017-13b228bb74e9",
         "1ed4ac40-0754-4e75-b3b4-86004bb1891b",
         "1e89c4b0-a3b3-4b1a-b93d-1f993e0c801a",
-        "e0e9b35d-3fe3-43e4-931c-c484436a6ded"
+        "e0e9b35d-3fe3-43e4-931c-c484436a6ded",
+        "c76db028-a18a-4f0d-86f2-37467d68a28c",
+        "b044afcf-82b3-4154-9770-09eb015c6312"
     ],
     "tutorial": ""
 }

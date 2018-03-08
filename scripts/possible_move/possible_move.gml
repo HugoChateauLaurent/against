@@ -1,7 +1,6 @@
 /// @function targets(board, piece)
-/// @description return an array containing the squares the piece can reach
-/// @param {real} board The unique instance ID value of the board
-/// @param {boolean} piece The unique instance ID value of the piece
+/// @description ...
+
 
 var board = argument0;
 var piece = argument1;
