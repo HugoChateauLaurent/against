@@ -34,10 +34,16 @@ for(var i = 0; i<max_length-1; i++) {
 	piece = board.paths[index_max, i].piece;
 	if(piece != noone) {
 		board.paths[index_max, i].piece = noone;
-		show_debug_message("index : "+ string(piece.coordX)+" "+string(piece.coordY));
 		instance_destroy(piece);
 		board.scores[board.player] += 1;
 	}
 }
+
+//if destination is on final line, remove piece and increment score
+if((square.coordY == board.nb_squares-1 && !board.player) || (square.coordY == 0 && board.player)) {	
+	instance_destroy(square.piece);
+	board.scores[board.player] += 1;	
+}
+
 highlight_board(board, noone) //reset highlight
 board.player = !board.player; //next player's turn

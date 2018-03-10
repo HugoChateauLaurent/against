@@ -3,7 +3,7 @@
 /// @param {real} board id
 
 with(argument0) {
-		nb_squares = 6; //nombre de cases
+	nb_squares = 6; //nombre de cases
 	size = 256 * global.square_size; // taille des cases
 	pos_x = 200; //position grille
 	pos_y = 200; //position grille

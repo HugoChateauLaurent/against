@@ -9,7 +9,7 @@ global.path_square_color = global.path_piece_color;
 
 //couleurs pièces
 global.black_piece_color = make_colour_rgb(0, 0, 0);
-global.white_piece_color = make_colour_rgb(255, 255, 200);
+global.white_piece_color = c_white;
 
 //couleurs cases
 global.black_square_color = make_colour_rgb(110, 110, 110);
