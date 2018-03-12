@@ -17,7 +17,7 @@ for (var i = 0; i < nb_match; ++i) {
 		board = id_board; // on stocke l'id du plateau dans l'objet
 		coordY = i;
 		piece = noone;
-		active = false;
+		active = true;
 	}
 	array_matches[i] = match;
 }
