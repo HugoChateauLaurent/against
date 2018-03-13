@@ -11,5 +11,5 @@ for (var i = 0 ; i < array_length_1d(tab) ; i++) {
 		nb = nb + 1;
 	}
 }
-
+show_debug_message("le nombre d'allumettes actives " + string(nb));
 return nb;

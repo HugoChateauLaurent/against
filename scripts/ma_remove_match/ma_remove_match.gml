@@ -1,7 +1,7 @@
 /// @function ma_remove_match(id, board)
 /// @description Delete this match and all the previous ones
 /// @param {oMatch} match
-
+/*
 var id = argument0;
 var board = argument1;
 
@@ -18,3 +18,4 @@ if (ma_can_remove(id, board)){
 	}
 	///return true
 }///else return false;
+*/

@@ -1,16 +1,19 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-if ((coordY < ma_mathes_left(id.board.array_matches) -3) && active)){
-	for ( var i = id.coordY ; i < ma_mathes_left(board) ; i++){
+var nb=ma_mathes_left(board) -3; 
+if ((coordY > nb )&& active){
+	show_debug_message("le nombre d'allumettes qu'on peut retirer " + string(nb));
+	show_debug_message("corrdy =  " + string(coordY) );
+	for ( var i = coordY ; i < ma_mathes_left(board) ; i++){
+		show_debug_message("id de l'alumette en cours " + string(i));
 		board.array_matches[i].active = false;
-		image_blend = global.active_match_color;
+		board.array_matches[i].image_blend = global.active_match_color;
 	}
-	if (match.board.player){
-		match.board.player = false;
+	if (board.player){
+		board.player = false;
 	}else{
-		match.board.player = true;
+		board.player = true;
 	}
 	///return true
 }///else return false;
