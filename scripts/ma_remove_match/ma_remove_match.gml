@@ -1,13 +1,14 @@
-/// @function ma_remove_match(match)
+/// @function ma_remove_match(id, board)
 /// @description Delete this match and all the previous ones
 /// @param {oMatch} match
 
-var match = argument0;
+var id = argument0;
+var board = argument1;
 
 
-if (ma_can_remove(match)){
-	for ( var i = match.coordY ; i < ma_mathes_left(match.board) ; i++){
-		match.board.array_matches[i].active = false;
+if (ma_can_remove(id, board)){
+	for ( var i = id.coordY ; i < ma_mathes_left(board) ; i++){
+		board.array_matches[i].active = false;
 		image_blend = global.active_match_color;
 	}
 	if (match.board.player){
@@ -15,5 +16,5 @@ if (ma_can_remove(match)){
 	}else{
 		match.board.player = true;
 	}
-	return true
-}else return false;
+	///return true
+}///else return false;
