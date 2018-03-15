@@ -1,8 +1,8 @@
 {
-    "id": "00311a19-7af9-434f-98a4-1bfc091bbeff",
+    "id": "a33c5c84-4bea-485c-a838-eb3c02842526",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "ma_remove_match",
+    "name": "ma_clic_match_2players",
     "IsCompatibility": false,
     "IsDnD": false
 }
