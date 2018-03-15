@@ -6,15 +6,21 @@ var board = argument0;
 var square = argument1;
 				
 square.piece = board.active_piece; //change the piece's square
-
 //remove piece from previous position
-board.squares[board.active_piece.coordX, board.active_piece.coordY].piece = noone;
+board.squares[board.active_piece.coordX, board.active_piece.coordY].piece = noone;	
 
-//assign new coordinates on view and model
-square.piece.x = square.x;
-square.piece.y = square.y;
-square.piece.coordX = square.coordX;
-square.piece.coordY = square.coordY;
+//if destination is on final line, remove piece and increment score
+if((square.coordY == board.nb_squares-1 && !board.player) || (square.coordY == 0 && board.player)) { //if destination is on final line, remove piece and increment score
+	instance_destroy(square.piece);
+	square.piece = noone;
+	board.scores[board.player] += 1;	
+} else {
+	//assign new coordinates on view and model
+	square.piece.x = square.x;
+	square.piece.y = square.y;
+	square.piece.coordX = square.coordX;
+	square.piece.coordY = square.coordY;
+}
 
 //remove eaten pieces with the longest path to destination
 var length;
@@ -39,11 +45,10 @@ for(var i = 0; i<max_length-1; i++) {
 	}
 }
 
-//if destination is on final line, remove piece and increment score
-if((square.coordY == board.nb_squares-1 && !board.player) || (square.coordY == 0 && board.player)) {	
-	instance_destroy(square.piece);
-	board.scores[board.player] += 1;	
-}
+
+
+
+
 
 highlight_board(board, noone) //reset highlight
 board.player = !board.player; //next player's turn

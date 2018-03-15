@@ -107,6 +107,9 @@ with(argument0) {
 	active_piece = noone;
 	scores[0] = 0;
 	scores[1] = 0;
+	evaluation = 0;
+	status = -1; //-1 : running, 0 : player 0 won, 1 : player 1 won
+	
 	
 }
 
