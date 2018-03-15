@@ -1,5 +1,5 @@
-/// @function targets(board)
-/// @description ...
+/// @function ma_matches_left(board)
+/// @description get id of the last active match
 
 
 var board = argument0;
@@ -11,5 +11,6 @@ for (var i = 0 ; i < array_length_1d(tab) ; i++) {
 		nb = nb + 1;
 	}
 }
-show_debug_message("le nombre d'allumettes actives " + string(nb));
+nb= nb -1
+show_debug_message("id de la dernière alumette active " + string(nb));
 return nb;

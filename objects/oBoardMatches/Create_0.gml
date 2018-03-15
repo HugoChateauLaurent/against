@@ -16,12 +16,11 @@ for (var i = 0; i < nb_match; ++i) {
 	with(match) {
 		board = id_board; // on stocke l'id du plateau dans l'objet
 		coordY = i;
-		piece = noone;
 		active = true;
 	}
 	array_matches[i] = match;
 }
 
 
-player = false; //it's player 0's turn
+player = 1; //it's player1's turn
 

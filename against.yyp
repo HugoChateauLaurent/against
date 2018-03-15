@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "83142adc-d3a4-4e58-8a07-45d9221b8781",
+            "Value": {
+                "id": "68f1c2a3-f3bc-4dad-b7ba-de9f6df46b06",
+                "resourcePath": "objects\\oMa_Score\\oMa_Score.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
             "Value": {
                 "id": "4ac20cea-9fb2-4309-b65f-0422e8cb6238",
@@ -564,9 +572,9 @@
         "e0e9b35d-3fe3-43e4-931c-c484436a6ded",
         "1392756f-46f1-4850-9c1a-ec5295bda045",
         "562ed214-bc0e-4e28-86b4-08692fea1f5d",
-        "c76db028-a18a-4f0d-86f2-37467d68a28c",
         "b044afcf-82b3-4154-9770-09eb015c6312",
-        "00311a19-7af9-434f-98a4-1bfc091bbeff"
+        "00311a19-7af9-434f-98a4-1bfc091bbeff",
+        "c76db028-a18a-4f0d-86f2-37467d68a28c"
     ],
     "tutorial": ""
 }
