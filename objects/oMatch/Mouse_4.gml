@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 var idLeft = ma_mathes_left(board);
+
 if (board.player==2){
 	board.player = 1;
 	var color = global.j2_match_color_inactive;
