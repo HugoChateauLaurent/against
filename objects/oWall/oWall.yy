@@ -1,8 +1,8 @@
 {
-    "id": "698e05cb-9524-4b0e-9417-46a49f5601db",
+    "id": "1bbf1150-5e00-43fa-ba4a-02f3448f5e9b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "robSysExp",
+    "name": "oWall",
     "eventList": [
         
     ],
@@ -23,7 +23,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": false,
-    "spriteId": "4684cffd-dcb1-414d-9439-79c7951d4393",
+    "solid": true,
+    "spriteId": "552013ff-f4ff-4ce3-80c6-92f27c6e38d8",
     "visible": true
 }
