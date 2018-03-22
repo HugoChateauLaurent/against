@@ -49,4 +49,3 @@ else
 {
 	x += xadd * speed;
 }
-*/
