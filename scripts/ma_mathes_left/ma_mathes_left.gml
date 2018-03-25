@@ -8,9 +8,9 @@ var nb = 0;
 
 for (var i = 0 ; i < array_length_1d(tab) ; i++) {
 	if(tab[i].active == true){
-		nb = nb + 1;
+		nb++;
 	}
 }
-nb= nb -1
+nb--;
 show_debug_message("id de la dernière alumette active " + string(nb));
 return nb;

@@ -3,17 +3,18 @@
 
 var idLeft = ma_mathes_left(board);
 
-if (board.player==2){
-	board.player = 1;
-	var color = global.j2_match_color_inactive;
-}else{
-	board.player = 2;
-	var color = global.j1_match_color_inactive;
-}
+
 
 var nbPossible = idLeft -3; 
 
 if ((coordY > nbPossible )&& active){
+	if (board.player==2){
+		board.player = 1;
+		var color = global.j2_match_color_inactive;
+	}else{
+		board.player = 2;
+		var color = global.j1_match_color_inactive;
+	}
 	if(coordY == 0 ){
 		global.winner = board.player;
 	}

@@ -4,11 +4,11 @@
     "mvc": "1.1",
     "name": "7a8df563-af7f-4a4c-b3b8-00f5fe68efb9",
     "children": [
-        "9489c7d0-494f-4c78-b0da-0271060ba268",
-        "c27625f4-2d23-4ea5-8580-73769e613f57",
-        "466f74e5-f701-414f-8a5c-8ddbb8a28cbd",
-        "4684cffd-dcb1-414d-9439-79c7951d4393",
-        "791d0a6e-18b8-42d2-9b4b-1ac8f624baa1"
+        "ca922fd9-bbd3-444f-8d83-6fa7532a262f",
+        "aa88558e-6034-4171-880e-4ad57dbe4000",
+        "9a6c1c29-93b9-4830-bed7-176e28a7b5c9",
+        "9c8e9bf9-08b6-4cb6-853b-803957f4ec92",
+        "b52d1374-0c2d-4251-8f99-86647ab23e74"
     ],
     "filterType": "GMSprite",
     "folderName": "personnages",
