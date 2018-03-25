@@ -8,6 +8,7 @@ with(argument0) {
 	pos_x = 200; //position grille
 	pos_y = 200; //position grille
 	rangee = 2; //rangées de pions
+	var square = noone;
 
 	var tmp_piece;
 	var id_board = id; //on stocke l'idée de l'instance dans une variable locale pour y accéder dans les with
@@ -107,9 +108,8 @@ with(argument0) {
 	active_piece = noone;
 	scores[0] = 0;
 	scores[1] = 0;
-	evaluation = 0;
 	status = -1; //-1 : running, 0 : player 0 won, 1 : player 1 won
-	
+	against_bot = 1;
 	
 }
 

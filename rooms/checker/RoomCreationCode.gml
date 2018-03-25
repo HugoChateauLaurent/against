@@ -25,4 +25,6 @@ global.directions[3] = 2;
 global.square_size = 0.25;
 global.piece_size = 0.25;
 
+global.bot_index = 0;
+
 score = instance_create_depth(10,10,-20, oScore);

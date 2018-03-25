@@ -7,5 +7,5 @@ var player = argument1;
 board.evaluation = 0;
 
 if(board.status != -1) {
-	
+	//if(board.status == board.evaluation +=		
 }

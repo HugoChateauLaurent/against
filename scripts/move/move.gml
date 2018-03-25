@@ -13,7 +13,7 @@ board.squares[board.active_piece.coordX, board.active_piece.coordY].piece = noon
 if((square.coordY == board.nb_squares-1 && !board.player) || (square.coordY == 0 && board.player)) { //if destination is on final line, remove piece and increment score
 	instance_destroy(square.piece);
 	square.piece = noone;
-	board.scores[board.player] += 1;	
+	board.scores[board.player] += 5;	
 } else {
 	//assign new coordinates on view and model
 	square.piece.x = square.x;
@@ -52,3 +52,6 @@ for(var i = 0; i<max_length-1; i++) {
 
 highlight_board(board, noone) //reset highlight
 board.player = !board.player; //next player's turn
+if(board.player == global.bot_index && board.against_bot == 1) {
+	ch_bot_move(board);
+}
