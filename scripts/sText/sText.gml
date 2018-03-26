@@ -1,12 +1,12 @@
-//scr_text("Text", speed, x, y);
+//scr_text();
 
-txt = instance_create_depth(argument2, argument3, 0 , obj_text);
+txt = instance_create_depth(0, 0, 0 , obj_text);
 with (txt) {
 	
-	padding = 16;
+	padding = 10;
 	maxlength = view_wview[0];
-	text = argument0;
-	spd = argument1;
+	text = global.dialogText;
+	spd = 1;
 	font = fDialog;
 	
 	text_length = string_length(text);
@@ -14,7 +14,7 @@ with (txt) {
 	
 	draw_set_font(font);
 	
-	text_width = string_width_ext(text,font_size+(font_size/2), maxlength);
+	text_width = string_width_ext(text,font_size+(font_size/2), maxlength-2);
 	text_height = string_height_ext(text, font_size+(font_size/2), maxlength);
 	
 	boxwidth = text_width + (padding*2);
