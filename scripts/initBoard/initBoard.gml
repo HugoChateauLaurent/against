@@ -9,6 +9,10 @@ with(argument0) {
 	pos_y = 200; //position grille
 	rangee = 2; //rangées de pions
 	var square = noone;
+	
+	nb_pieces[0] = 0;
+	nb_pieces[1] = 0;
+	
 
 	var tmp_piece;
 	var id_board = id; //on stocke l'idée de l'instance dans une variable locale pour y accéder dans les with
@@ -32,6 +36,7 @@ with(argument0) {
 					active = false;
 				}
 				squares[j,i] = square;
+				
 			
 			
 			} else {
@@ -74,6 +79,8 @@ with(argument0) {
 				with(squares[j,i]) {
 					piece = tmp_piece;
 				}
+				
+				nb_pieces[0]++;
 			}
 		
 		}
@@ -97,6 +104,8 @@ with(argument0) {
 				with(squares[j,i]) {
 					piece = tmp_piece;
 				}
+				
+				nb_pieces[1]++;
 			}
 		
 		}
@@ -104,7 +113,7 @@ with(argument0) {
 
 
 
-	player = true; //it's player 0's turn
+	player = true; //it's player 1's turn
 	active_piece = noone;
 	scores[0] = 0;
 	scores[1] = 0;

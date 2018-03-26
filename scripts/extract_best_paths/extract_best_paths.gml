@@ -36,7 +36,6 @@ for(var i = array_length_1d(toRemove) - 1; i >= 0; i--) {
 	paths = remove_array_2d(paths, toRemove[i], -1);
 }
 
-show_debug_message(paths);
 var i = 0; 
 bound = array_height_2d(paths);
 var must_eat = false;
@@ -54,7 +53,6 @@ if(must_eat){
 		}
 	}
 }
-show_debug_message(string(must_eat)+string(paths));
 
 
 

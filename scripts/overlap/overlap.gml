@@ -13,9 +13,6 @@ if(array_length_1d(argument0)>array_length_1d(argument1)) {
 	var arr2 = argument1;
 }
 
-show_debug_message(arr1);
-show_debug_message(arr2);
-
 
 var overlapping = true;
 var i = 0;

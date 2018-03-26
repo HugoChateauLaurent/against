@@ -7,6 +7,7 @@ var actions = noone;
 var best_value = noone;
 var best_index;
 
+board.alarm[0] = room_speed * 0.4;
 
 
-move(board, board.squares[1,2]);
+

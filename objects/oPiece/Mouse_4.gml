@@ -6,9 +6,9 @@ if(board.player == color) { // if it's the player's turn
 	var activate = image_blend != global.active_piece_color;
 
 	if(activate){
-		highlight_board(board, id)
+		highlight_board(board, id, false)
 	} else {
-		highlight_board(board, noone);
+		highlight_board(board, noone, false);
 	}
 
 }
