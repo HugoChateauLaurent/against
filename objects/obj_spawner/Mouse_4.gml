@@ -9,6 +9,7 @@ if (id_replique < 3){
 	id_replique++;
 	sText(id);
 } else {
+	global.mask.timer = 100;
 	global.mask.fading = true;
 }
 
