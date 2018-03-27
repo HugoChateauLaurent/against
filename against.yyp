@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "8678cafa-cd65-4aca-84dc-6b5d5bb5c0b5",
+            "Value": {
+                "id": "d3453cf4-c8e4-4da7-b957-e929af2d9b2e",
+                "resourcePath": "scripts\\ma_clic_vs_radoom_looser\\ma_clic_vs_radoom_looser.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "86b27e3e-b5fd-484b-a2e1-e5fa1275d4c3",
             "Value": {
                 "id": "0f03c75d-0ec6-4508-a242-a7eb4c7176b1",
@@ -817,6 +825,7 @@
         "953d874c-8ee7-4329-8d97-1be46b3ba1ab",
         "b044afcf-82b3-4154-9770-09eb015c6312",
         "a33c5c84-4bea-485c-a838-eb3c02842526",
+        "8678cafa-cd65-4aca-84dc-6b5d5bb5c0b5",
         "79f379f0-18bb-48d2-b9b2-0a880a411ba1",
         "0ca731ab-7ec7-4783-b1f1-dabca2a90749"
     ],
