@@ -1,6 +1,6 @@
 /// @function sText(spawner)
-/// @description return the sorted array
-/// @param {real} arr
+/// @description return a box with text
+/// @param {spawner} 
 var spawner = argument0;
 
 instance_destroy(spawner.dialog_box);
@@ -18,10 +18,11 @@ with (spawner.dialog_box) {
 	
 	draw_set_font(font);
 	
+	///text_width = string_width_ext(text,font_size+(font_size/2), maxlength-2);
 	text_width = string_width_ext(text,font_size+(font_size/2), maxlength-2);
 	text_height = string_height_ext(text, font_size+(font_size/2), maxlength);
 	
-	boxwidth = text_width + (padding*2);
-	boxheight = text_height + (padding*2);
+	boxwidth = 1022;
+	boxheight = 90;
 	
 }
