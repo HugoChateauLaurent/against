@@ -3,10 +3,7 @@
 if(fading && image_alpha >= 1) {
 	if(timer <= 0) {
 		fading = false;
-		if(room_first == room) { 
-			game_end();
-		} 
-		else room_goto_next();
+		room_goto_next();
 	} else timer --;
 		
 } else if(fading && image_alpha<1) {
