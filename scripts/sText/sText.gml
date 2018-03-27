@@ -1,11 +1,15 @@
-//scr_text();
+/// @function sText(spawner)
+/// @description return the sorted array
+/// @param {real} arr
+var spawner = argument0;
 
-txt = instance_create_depth(0, 0, 0 , obj_text);
-with (txt) {
+instance_destroy(spawner.dialog_box);
+spawner.dialog_box = instance_create_depth(0, 0, 0 , obj_text);
+with (spawner.dialog_box) {
 	
 	padding = 10;
 	maxlength = view_wview[0];
-	text = global.dialogText;
+	text = spawner.dialog_text;
 	spd = 1;
 	font = fDialog;
 	
