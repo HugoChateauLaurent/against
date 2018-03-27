@@ -9,6 +9,6 @@ if (id_replique < 3){
 	id_replique++;
 	sText(id);
 } else {
-	id_replique++;
-	room_goto_next();	
+	global.mask.fading = true;
 }
+
