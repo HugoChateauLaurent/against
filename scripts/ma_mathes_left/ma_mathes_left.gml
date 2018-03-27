@@ -12,5 +12,5 @@ for (var i = 0 ; i < array_length_1d(tab) ; i++) {
 	}
 }
 nb--;
-show_debug_message("id de la dernière alumette active " + string(nb));
+///show_debug_message("id de la dernière alumette active " + string(nb));
 return nb;

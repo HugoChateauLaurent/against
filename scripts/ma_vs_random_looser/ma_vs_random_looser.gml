@@ -4,10 +4,13 @@
 
 var match = argument0;
 
+show_debug_message("on est dans random")
+show_debug_message(string(match.board.player));
 
 var idLeft = ma_mathes_left(match.board);/// number of matches as changed
 var nbPossible = idLeft -3; 
 match.board.player = 1;
+show_debug_message(string(match.board.player));
 var color = global.j2_match_color_inactive;
 if( idLeft < 3 ){/// here is some id, the min id is 0
 	global.winner = match.board.player;
