@@ -47,14 +47,6 @@
             }
         },
         {
-            "Key": "0ca731ab-7ec7-4783-b1f1-dabca2a90749",
-            "Value": {
-                "id": "0eb178c0-9c1d-40c6-b2ba-50ccc84757d9",
-                "resourcePath": "scripts\\sTextMaj\\sTextMaj.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "0ff42c0f-3dc6-462c-b55f-343a3cf78364",
             "Value": {
                 "id": "16088bc1-59c1-47a6-aa72-be11ac77a826",
@@ -759,6 +751,14 @@
             }
         },
         {
+            "Key": "da85e514-cb9d-4b28-8042-1e8e2f19fc9d",
+            "Value": {
+                "id": "306a84b7-5154-4b1c-83ec-b8c5501e4726",
+                "resourcePath": "rooms\\matches1\\matches1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "de1b5da0-9325-4d42-9e8b-9347b111219f",
             "Value": {
                 "id": "2c62476e-6b97-4963-99e5-a58c3ca70cbd",
@@ -860,8 +860,7 @@
         "8678cafa-cd65-4aca-84dc-6b5d5bb5c0b5",
         "ad7ba9a3-6bf3-4706-8f75-a6e468a5b409",
         "d21daa4a-b4ee-43bf-9298-cef47fcce02c",
-        "79f379f0-18bb-48d2-b9b2-0a880a411ba1",
-        "0ca731ab-7ec7-4783-b1f1-dabca2a90749"
+        "79f379f0-18bb-48d2-b9b2-0a880a411ba1"
     ],
     "tutorial": ""
 }

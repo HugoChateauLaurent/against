@@ -4,7 +4,7 @@
 var spawner = argument0;
 
 instance_destroy(spawner.dialog_box);
-spawner.dialog_box = instance_create_depth(0, 0, 0 , obj_text);
+spawner.dialog_box = instance_create_depth(0, 0, -10 , obj_text);
 with (spawner.dialog_box) {
 	
 	padding = 10;
