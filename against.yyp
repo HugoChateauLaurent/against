@@ -95,14 +95,6 @@
             }
         },
         {
-            "Key": "1bbf1150-5e00-43fa-ba4a-02f3448f5e9b",
-            "Value": {
-                "id": "c6bd601f-24a8-42b3-81fe-fcc8d1f016c0",
-                "resourcePath": "objects\\oWall\\oWall.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "1c0f4e3a-2bd4-4ba0-b0bf-aec774df0fa0",
             "Value": {
                 "id": "97a1ae15-f35e-46f6-b002-9583ec943c00",

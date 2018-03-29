@@ -9,45 +9,16 @@ MOVEDOWN = keyboard_check(vk_down);
 
 
 // Move Player
-if(MOVELEFT && x > sprite_width/2)
+if(MOVELEFT)
 {
 	x -= speed;
-}
-
-if(MOVERIGHT && x > room_width - sprite_width/2)
+} else if(MOVERIGHT)
 {
 	x += speed;	
-}
-
-if(MOVEUP && y > room_height/2)
+} else if(MOVEUP)
 {
 	y -= speed;	
-}
-
-if(MOVEDOWN && y < room_height - sprite_width/2)
+} else if(MOVEDOWN)
 {
 	y += speed; 	
 }
-
-
-/*
-var xadd = keyboard_check(vk_right) - keyboard_check(vk_left);
-var yadd = keyboard_check(vk_up) - keyboard_check(vk_down);
-
-//check for x collisions
-if (place_meeting(x + (xadd * speed), y, oWall))
-{
-	x += xadd * speed;
-}
-
-//check for y collisions
-if (place_meeting(x, y + (yadd * speed), oWall))
-{
-	while(! place_meeting(x * sign(xadd), y, oWall))
-		x += sign(xadd);
-}
-else
-{
-	x += xadd * speed;
-}*/
-
