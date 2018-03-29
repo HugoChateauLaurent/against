@@ -1,6 +1,6 @@
 
 {
-    "name": "matches1",
+    "name": "matches_exp",
     "id": "da85e514-cb9d-4b28-8042-1e8e2f19fc9d",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,

@@ -4,5 +4,4 @@ dialog_box = instance_create_depth(0, 0, -2, oSpawner);
 with(dialog_box){
 	image_xscale = 5;
 	image_yscale = 5;
-	//visible = false;
 }

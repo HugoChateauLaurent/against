@@ -19,5 +19,6 @@ global.match_size = 2;
 score = instance_create_depth(10,10,-20, oMa_Score); //create score
 
 global.winner = 0;
+global.versus = 1;
 
 
