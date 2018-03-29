@@ -20,15 +20,14 @@ if ((match.coordY > nbPossible )&& match.active){
 		match.board.array_matches[i].active = false;
 		match.board.array_matches[i].image_blend = color;
 	}
-	if(match.coordY == 0 ){
+}
+
+if(match.coordY == 0 ){
 		global.winner = match.board.player;
-	}
+}else{
 	if (global.versus == 1){
 		ma_vs_random_looser(match);
 	}else{
 		ma_vs_expert(match);
 	}
-}
-
-
 }
