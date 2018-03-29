@@ -1,10 +1,10 @@
 /// @function sText(spawner)
-/// @description return the sorted array
-/// @param {real} arr
+/// @description return a box with text
+/// @param {spawner} 
 var spawner = argument0;
 
 instance_destroy(spawner.dialog_box);
-spawner.dialog_box = instance_create_depth(0, 0, 0 , obj_text);
+spawner.dialog_box = instance_create_depth(0, 0, -10 , oText);
 with (spawner.dialog_box) {
 	
 	padding = 10;
@@ -18,10 +18,11 @@ with (spawner.dialog_box) {
 	
 	draw_set_font(font);
 	
+	///text_width = string_width_ext(text,font_size+(font_size/2), maxlength-2);
 	text_width = string_width_ext(text,font_size+(font_size/2), maxlength-2);
 	text_height = string_height_ext(text, font_size+(font_size/2), maxlength);
 	
-	boxwidth = text_width + (padding*2);
-	boxheight = text_height + (padding*2);
+	boxwidth = 1022;
+	boxheight = 90;
 	
 }
