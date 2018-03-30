@@ -1,28 +1,28 @@
 {
-    "id": "ceabf768-758b-4733-aa4e-7952d8eb812f",
+    "id": "b9886fb8-e589-4bf2-a16f-ea92f716716c",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "oBob",
     "eventList": [
         {
-            "id": "2f79fab1-e96d-4f33-95b7-522cc882c46f",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
-            "eventtype": 5,
-            "m_owner": "ceabf768-758b-4733-aa4e-7952d8eb812f"
-        },
-        {
-            "id": "3b5aa9f2-1d8c-45cd-a056-b96bccf34ebc",
+            "id": "88c5e333-dff8-476a-8041-8c0181564a3f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "ceabf768-758b-4733-aa4e-7952d8eb812f"
+            "m_owner": "b9886fb8-e589-4bf2-a16f-ea92f716716c"
+        },
+        {
+            "id": "065d8738-da8d-441d-891d-eaf7cf29c6cb",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 5,
+            "m_owner": "b9886fb8-e589-4bf2-a16f-ea92f716716c"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -42,7 +42,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": true,
+    "solid": false,
     "spriteId": "b52d1374-0c2d-4251-8f99-86647ab23e74",
     "visible": true
 }

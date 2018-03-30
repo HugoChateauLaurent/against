@@ -3,6 +3,6 @@
 
 bob = instance_create_depth(540, 340, -1, oBob);
 with(bob){
-	image_xscale = 0.1;
-	image_yscale = 0.1;
+	image_xscale = 0.5;
+	image_yscale = 0.5
 }
