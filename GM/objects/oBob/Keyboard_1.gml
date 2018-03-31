@@ -1,6 +1,6 @@
 /// @description Insert description here
 // Mouvement
-spd = 2;
+
 MOVELEFT = keyboard_check(vk_left);
 MOVERIGHT = keyboard_check(vk_right);
 MOVEUP = keyboard_check(vk_up);
