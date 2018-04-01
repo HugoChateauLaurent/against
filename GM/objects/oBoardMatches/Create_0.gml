@@ -1,8 +1,12 @@
 /// @description BoardMaches initialisation
 // You can write your code in this editor
 
-
-nb_match = 21; // number of mathes
+if (global.versus == 2){
+	nb_match = 5;// number of mathes
+	tour = 0;
+}else{
+	nb_match = 21; // number of mathes
+}
 spacing = 10*global.match_size + 20; // match spacing 
 pos_x = 100; // x grid position
 pos_y = 400; // y grid position

@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "2fc7ba29-4da1-484d-8c90-88bec8e0f81b",
+            "Value": {
+                "id": "c87053c2-bf90-44c6-a528-23d1df91d4fa",
+                "resourcePath": "scripts\\ma_clic_tuto\\ma_clic_tuto.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "31f65d98-7146-409e-acf9-df83932eb256",
             "Value": {
                 "id": "61439e45-3496-4307-a481-39fed057f17c",
@@ -892,6 +900,7 @@
         "8678cafa-cd65-4aca-84dc-6b5d5bb5c0b5",
         "ad7ba9a3-6bf3-4706-8f75-a6e468a5b409",
         "d21daa4a-b4ee-43bf-9298-cef47fcce02c",
+        "2fc7ba29-4da1-484d-8c90-88bec8e0f81b",
         "79f379f0-18bb-48d2-b9b2-0a880a411ba1"
     ],
     "tutorial": ""
