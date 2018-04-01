@@ -3,4 +3,5 @@
 if (global.versus != 2){
 	ma_clic_vs(id);
 }else{
-	
+	ma_clic_tuto();
+}
