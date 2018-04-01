@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "293911fb-458d-4ac8-95eb-902c77acc3ee",
+            "Value": {
+                "id": "30376e6f-5cd1-4710-88c2-a722f86327b5",
+                "resourcePath": "objects\\oMatchesGame\\oMatchesGame.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2f5e0689-4ab1-40d9-842b-339e6ee68091",
             "Value": {
                 "id": "62660916-3cd2-4ebc-a07c-857c85acb774",
@@ -212,6 +220,14 @@
                 "id": "61b57b79-d587-41af-8211-f461f903d4eb",
                 "resourcePath": "scripts\\concatenate_array_2d\\concatenate_array_2d.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "50c30b55-87fd-414f-b897-dd8101b35af2",
+            "Value": {
+                "id": "045733f9-6a0a-44a2-9c11-e8ef826d04c1",
+                "resourcePath": "sprites\\sMatchesGame\\sMatchesGame.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -419,6 +435,14 @@
             "Value": {
                 "id": "a65267f2-8507-4ca2-a316-e7b3413597fa",
                 "resourcePath": "sprites\\sScore\\sScore.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8dc4ae89-52b3-48a6-810d-effe8b1c04db",
+            "Value": {
+                "id": "6d2ad86f-fdad-45cc-a5cf-660733c2bbb5",
+                "resourcePath": "sprites\\sBobOn\\sBobOn.yy",
                 "resourceType": "GMSprite"
             }
         },

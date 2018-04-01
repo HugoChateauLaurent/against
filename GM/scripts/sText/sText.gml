@@ -22,7 +22,7 @@ with (spawner.dialog_box) {
 	text_width = string_width_ext(text,font_size+(font_size/2), maxlength-2);
 	text_height = string_height_ext(text, font_size+(font_size/2), maxlength);
 	
-	boxwidth = 1022;
-	boxheight = 90;
+	boxwidth = 822;
+	boxheight = 120;
 	
 }

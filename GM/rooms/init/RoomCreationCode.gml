@@ -5,7 +5,10 @@ global.mask.persistent = true;
 
 global.id_replique = 0;
 
-// Définit le type d'adversaire pour les jeux
-// Allumettes : 1 -> random, sinon WS
 global.versus = 1;
+
+// Définit si les textes doivent commencer
+global.part_with_text = true;
+
+global.match_size = 2;
 room_goto_next();
