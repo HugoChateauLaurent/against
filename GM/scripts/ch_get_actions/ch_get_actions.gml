@@ -14,7 +14,26 @@ if(board.player) {
 	while(i>=0 && cpt<board.nb_pieces[board.player]) {
 		j=0;
 		while(j<board.nb_squares && cpt<board.nb_pieces[board.player]) {
-			if(board.squares[j,i].piece != noone && board.squares[j,i].piece.color = board.player) {
+			if(board.squares[j,i].piece != noone && board.squares[j,i].piece.color == board.player) {
+				highlight_board(board, noone, true); // reset highlight
+				set_active(board.squares[j,i].piece, true, board);
+				var paths = possible_move(board, board.squares[j,i].piece);
+				with(board) {
+					self.paths = paths;
+					var bound = array_height_2d(paths);
+					for(var k = 0;k < bound; k++) {
+						set_active(paths[k, array_length_2d(paths, k)-1], true, board); //activate destination
+			
+						var action = instance_create_depth(0,0,0,oChAction);
+						ds_list_add(actions, action);
+						with(action){
+							visible = false;
+							piece = board.squares[j,i].piece
+							destination = paths[k, array_length_2d(paths, k)-1];								
+						}
+								
+					}
+				}
 				
 				cpt++;
 			}
@@ -30,8 +49,7 @@ if(board.player) {
 	while(i<board.nb_squares && cpt<board.nb_pieces[board.player]) {
 		j=0;
 		while(j<board.nb_squares && cpt<board.nb_pieces[board.player]) {
-			if(board.squares[j,i].piece != noone && board.squares[j,i].piece.color = board.player) {
-				show_debug_message("trouvé");
+			if(board.squares[j,i].piece != noone && board.squares[j,i].piece.color == board.player) {
 				highlight_board(board, noone, true); // reset highlight
 				set_active(board.squares[j,i].piece, true, board);
 				var paths = possible_move(board, board.squares[j,i].piece);

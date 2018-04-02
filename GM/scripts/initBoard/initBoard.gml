@@ -1,5 +1,5 @@
 /// @function init_board(board)
-/// @description 
+/// @description	
 /// @param {real} board id
 
 with(argument0) {
@@ -87,7 +87,7 @@ with(argument0) {
 	}
 
 	//crée les pièces blanches
-	for(var i=nb_squares-1;i>=nb_squares-2;--i){
+	for(var i=nb_squares-1;i>=nb_squares-rangee;--i){
 		for(var j=0;j<nb_squares;++j){
 			if(squares[j,i].color==0){// si case noire
 				tmp_piece = instance_create_depth(squares[j,i].x, squares[j,i].y,2, oPiece); //ajoute pion
@@ -117,7 +117,7 @@ with(argument0) {
 	active_piece = noone;
 	scores[0] = 0;
 	scores[1] = 0;
-	status = -1; //-1 : running, 0 : player 0 won, 1 : player 1 won
+	status = -1; //-1 : running, 0 : player 0 won, 1 : player 1 won, 2 : tie !
 	against_bot = 1;
 	
 }

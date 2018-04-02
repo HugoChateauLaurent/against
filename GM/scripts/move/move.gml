@@ -52,7 +52,13 @@ for(var i = 0; i<max_length-1; i++) {
 
 
 
-
+if(board.nb_pieces[0] == 0) {
+	board.status = 1;
+}
+if(board.nb_pieces[1] == 0) {
+	if(board.status == 1) board.status = 2;
+	else board.status = 0;
+}
 
 highlight_board(board, noone, simulation) //reset highlight
 board.player = !board.player; //next player's turn

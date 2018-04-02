@@ -16,7 +16,8 @@
         "562ed214-bc0e-4e28-86b4-08692fea1f5d",
         "c2acbc8f-a450-40dd-9a88-027a0f2a6cf8",
         "91f2392f-5aa7-4852-9675-baef39f85d08",
-        "953d874c-8ee7-4329-8d97-1be46b3ba1ab"
+        "953d874c-8ee7-4329-8d97-1be46b3ba1ab",
+        "db517412-6175-4016-aa3e-d36f0c636664"
     ],
     "filterType": "GMScript",
     "folderName": "checkers",

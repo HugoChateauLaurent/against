@@ -9,7 +9,7 @@ var i=0;
 var found = false;
 
 while(!found && i<array_length_1d(array)) {
-	if(element = array[i]){
+	if(element == array[i]){
 		found = true;	
 	}
 	
