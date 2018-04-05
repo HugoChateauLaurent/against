@@ -11,10 +11,7 @@ global.match_color = make_colour_rgb(255, 255, 255);
 global.black_match_color = make_colour_rgb(0, 0, 0);
 global.white_match_color = make_colour_rgb(255, 255, 255);
 
-
-
 global.match_size = 2;
-
 
 //instance_create_depth(0,0,1000, oBoardMatches); //create board	
 
@@ -23,7 +20,17 @@ score = instance_create_depth(10,10,-20, oMa_Score); //create score
 global.winner = 0;
 global.versus = 1;
 
-
 global.part_with_text = false;
+
+global.id_room = 3;
+
+bob_matches = instance_create_depth(420, 100, 0, oBob);
+
+with(bob_matches){
+	image_xscale = 0.4;
+	image_yscale = 0.4;
+}
+
+global.bob_move = false;
 
 

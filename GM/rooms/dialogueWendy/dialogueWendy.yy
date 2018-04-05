@@ -2,7 +2,7 @@
 {
     "name": "dialogueWendy",
     "id": "b13d4cc3-62c0-4d45-9122-e5de4bc87c2f",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

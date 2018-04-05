@@ -2,7 +2,7 @@
 
 if (global.part_with_text){
 	global.id_replique++;
-
+	show_debug_message(string(global.id_replique));
 	switch(global.id_replique){
 	
 		//Room1 : introduction avec l'usine et Bob
@@ -22,7 +22,7 @@ if (global.part_with_text){
 	
 		//Room4 : Bob perd contre l'utilisateur et rencontre Wendy Simon qui lui explique les solutions gagnantes
 		case 12 : dialog_text = "Bob : Um... It's not easy... To be honest, I just played randomly"; text_or_not = true; break;
-		case 13 : dialog_text = "Wendy Simon : Hi Hi ! I saw you playing and it wasn't really good... even a bit painful, y'know."; text_or_not = true; break;
+		case 13 : dialog_text = "Wendy Simon : Hi Hi ! I saw you playing and it wasn't really good... even a bit painful, y'know."; /*wendy = instance_create_depth(500, 500, 0, oWendy);*/ text_or_not = true; break;
 		case 14 : dialog_text = "Bob : Hi, who are you ? And why do you say that ?"; text_or_not = true; break;
 		case 15 : dialog_text = "W. S. : Sorry, I forgot to introduce myself ! I'm Wendy Simon and I've been playing this game for a looooong time with my grandfather y'know."; text_or_not = true; break;
 		case 16 : dialog_text = "W. S. : Well, your moves were complete garbage ! You didn't mind your opponent's moves, right ? Y'know there is an unbreakable solution, a winning solution ?"; text_or_not = true; break;

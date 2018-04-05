@@ -28,3 +28,5 @@ global.piece_size = 0.25;
 global.bot_index = 0;
 
 score = instance_create_depth(10,10,-20, oScore);
+
+global.id_room = 7;

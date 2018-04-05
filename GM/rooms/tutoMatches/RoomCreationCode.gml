@@ -26,4 +26,5 @@ global.versus = 2;
 
 global.part_with_text = false;
 
+global.id_room = 5;
 

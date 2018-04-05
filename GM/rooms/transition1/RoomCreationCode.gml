@@ -1,9 +1,10 @@
 global.id_replique = 7;
 global.part_with_text = false;
+global.id_room = 2;
 
-bob_matches = instance_create_depth(250, 250, 0, oBob);
+bob_transition1 = instance_create_depth(250, 250, 0, oBob);
 
-with(bob_matches){
+with(bob_transition1){
 	image_xscale = 0.11;
 	image_yscale = 0.11;
 }
