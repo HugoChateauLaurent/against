@@ -15,26 +15,35 @@ if(activate) {
 	highlight_board(argument0, noone, simulation); // reset highlight
 	set_active(argument1, activate, board);
 	
-	var paths = possible_move(argument0, argument1);
+	board.actions = ch_get_actions(argument0);
+	
+	
+	highlight_board(argument0, noone, simulation); // reset highlight
+	set_active(argument1, activate, board);
+	
 	with(argument0) {
-		self.paths = paths;
+		
 		var bound = array_height_2d(paths);
+		
 		for(var i = 0;i < bound; i++) {
-			set_active(paths[i, array_length_2d(paths, i)-1], true, board); //activate destination
+			if(argument1 == ds_list_find_value(board.actions,i).piece) {
+				set_active(paths[i, array_length_2d(paths, i)-1], true, board); //activate destination
 			
-			if(!simulation) {
-				//apply path color on path
-				for (var j = 0; j<array_length_2d(paths, i)-1; j++) {
-					if(paths[i, j].piece == noone) {	
-						paths[i, j].image_blend = global.path_square_color;
-					} else {
-						paths[i, j].piece.image_blend = global.path_piece_color;
-					}
+				if(!simulation) {
+					//apply path color on path
+					for (var j = 0; j<array_length_2d(paths, i)-1; j++) {
+						if(paths[i, j].piece == noone) {	
+							paths[i, j].image_blend = global.path_square_color;
+						} else {
+							paths[i, j].piece.image_blend = global.path_piece_color;
+						}
 				
-				}
-			}				
+					}
+				}	
+			}
 		}
 	}	
+	
 }
 
 //unhighlight
@@ -50,3 +59,4 @@ else {
 		}
 	}
 }
+

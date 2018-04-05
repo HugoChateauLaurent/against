@@ -17,8 +17,8 @@ if(limit==0 || board.status != -1) {
 	var best_value = noone;
 	for(var i = 0; i<ds_list_size(actions); i++) {
 		new_board = smart_clone(board, "oBoard");
-		highlight_board(new_board, new_board.squares[ds_list_find_value(actions, i).piece.coordX, ds_list_find_value(actions, i).piece.coordY].piece, false);
-		move(new_board, new_board.squares[ds_list_find_value(actions, i).destination.coordX,ds_list_find_value(actions, i).destination.coordY], false);
+		highlight_board(new_board, new_board.squares[ds_list_find_value(actions, i).piece.coordX, ds_list_find_value(actions, i).piece.coordY].piece, true);
+		move(new_board, new_board.squares[ds_list_find_value(actions, i).destination.coordX,ds_list_find_value(actions, i).destination.coordY], true);
 		
 		value = ch_minimax(new_board, player, limit-1);
 		if(best_value == noone || (max_node && value > best_value) || (!max_node && value < best_value)) {

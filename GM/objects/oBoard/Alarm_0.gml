@@ -14,12 +14,12 @@ else if(mode == "minimax") {
 	var value = noone;
 	var best_value = noone;
 	for(var i = 0; i<ds_list_size(actions); i++) {
-		show_debug_message("i : "+string(i));
+		show_debug_message(string(i)+"/"+string(ds_list_size(actions)-1));
 		new_board = smart_clone(id, "oBoard");
 		highlight_board(new_board, new_board.squares[ds_list_find_value(actions, i).piece.coordX, ds_list_find_value(actions, i).piece.coordY].piece, false);
 		move(new_board, new_board.squares[ds_list_find_value(actions, i).destination.coordX,ds_list_find_value(actions, i).destination.coordY], false);
 		
-		value = ch_minimax(new_board, new_board.player, 5);
+		value = ch_minimax(new_board, new_board.player, 50);
 		if(best_index == noone || value > best_value) {
 			best_index = i;
 			best_value = value;
@@ -35,7 +35,7 @@ else if(mode == "minimax") {
 		highlight_board(new_board, new_board.squares[ds_list_find_value(actions, i).piece.coordX, ds_list_find_value(actions, i).piece.coordY].piece, false);
 		move(new_board, new_board.squares[ds_list_find_value(actions, i).destination.coordX,ds_list_find_value(actions, i).destination.coordY], false);
 		
-		value = ch_alphabeta(new_board, new_board.player, 5, -999999, 999999);
+		value = ch_alphabeta(new_board, !new_board.player, 4, -999999, 999999);
 		if(best_index == noone || value > best_value) {
 			best_index = i;
 			best_value = value;

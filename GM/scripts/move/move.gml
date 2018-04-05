@@ -52,17 +52,23 @@ for(var i = 0; i<max_length-1; i++) {
 
 
 
-if(board.nb_pieces[0] == 0) {
-	board.status = 1;
-}
-if(board.nb_pieces[1] == 0) {
-	if(board.status == 1) board.status = 2;
-	else board.status = 0;
+if(board.nb_pieces[0] == 0 || board.nb_pieces[1] == 0) {
+	for(var i=0; i<2; i++) {
+		board.scores[i] += 5*board.nb_pieces[i];	
+	}
+	
+	if(board.scores[0] > board.scores[1]) {
+		board.status = 0;
+	} else if(board.scores[1] > board.scores[0]) {
+		board.status = 1;
+	} else board.status = 2;
 }
 
 highlight_board(board, noone, simulation) //reset highlight
 board.player = !board.player; //next player's turn
-//show_debug_message("joueeeur : "+string(board.player));
 if(board.player == global.bot_index && board.against_bot == 1) {
 	ch_bot_move(board);
 }
+
+board.paths = noone;
+

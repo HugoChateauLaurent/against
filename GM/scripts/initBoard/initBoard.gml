@@ -119,8 +119,5 @@ with(argument0) {
 	scores[1] = 0;
 	status = -1; //-1 : running, 0 : player 0 won, 1 : player 1 won, 2 : tie !
 	against_bot = 1;
-	
+	paths = noone;	
 }
-
-
-

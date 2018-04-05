@@ -18,6 +18,7 @@ if(type == "oBoard") {
 		player = object.player;
 		scores = object.scores;
 		status = object.status;
+		paths = noone;
 		
 		var square = noone;
 		var tmp_piece = noone;

@@ -36,23 +36,9 @@ for(var i = array_length_1d(toRemove) - 1; i >= 0; i--) {
 	paths = remove_array_2d(paths, toRemove[i], -1);
 }
 
-var i = 0; 
-bound = array_height_2d(paths);
-var must_eat = false;
-while(!must_eat && i<bound) {
-	if(array_length_2d(paths, i) >= 2){
-		must_eat = true;	
-	}
-	i++;
-}
-if(must_eat){
-	for(var i = 0; i<array_height_2d(paths); i++){
-		if(array_length_2d(paths, i) < 2) {
-			paths = remove_array_2d(paths, i, -1);
-			i--;			
-		}
-	}
-}
+
+
+
 
 
 

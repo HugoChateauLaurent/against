@@ -22,7 +22,7 @@ if(limit==0 || board.status != -1) {
 	var cut = false;
 	while(i<ds_list_size(actions) && !cut) {
 		new_board = smart_clone(board, "oBoard");
-		highlight_board(new_board, new_board.squares[ds_list_find_value(actions, i).piece.coordX, ds_list_find_value(actions, i).piece.coordY].piece, false);
+		highlight_board(new_board, new_board.squares[ds_list_find_value(actions, i).piece.coordX, ds_list_find_value(actions, i).piece.coordY].piece, true);
 		move(new_board, new_board.squares[ds_list_find_value(actions, i).destination.coordX,ds_list_find_value(actions, i).destination.coordY], false);
 		
 		value = ch_alphabeta(new_board, player, limit-1, a, b);
