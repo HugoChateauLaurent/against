@@ -132,4 +132,5 @@ if (global.part_with_text){
 	}
 	// Si on doit afficher du texte (si ce n'est pas une transition)
 	if (text_or_not) sText(id);
-}
+}else if(global.part_with_game){
+	

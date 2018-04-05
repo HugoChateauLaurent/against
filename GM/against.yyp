@@ -839,6 +839,14 @@
             }
         },
         {
+            "Key": "ed2479fa-4e98-41e4-a0a2-8fff0224af98",
+            "Value": {
+                "id": "eaeed1f5-786c-4785-aae6-9045817c664a",
+                "resourcePath": "scripts\\game_text\\game_text.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ed635b8c-3b10-44f2-9b5d-2bc00fc08473",
             "Value": {
                 "id": "bafdcb37-4e16-4e3c-9b04-cb9f23903fa4",
@@ -898,6 +906,7 @@
         "a99e06c5-3bd9-4ce8-807c-20265d578329",
         "89e26d7f-eeb9-439a-858a-aaca51e977b5",
         "25fb8942-0f7f-4c94-aa04-bf93b79371ea",
+        "ed2479fa-4e98-41e4-a0a2-8fff0224af98",
         "746eb992-44bf-4f21-9eba-b0992e604242",
         "6b016372-f46d-4e7b-8c71-9c4543eb914e",
         "bfd9e8a1-ba32-43bd-96bc-b0b5aca934a3",
