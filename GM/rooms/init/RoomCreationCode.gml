@@ -3,7 +3,7 @@
 global.mask.image_blend = c_black;
 global.mask.persistent = true;
 
-global.id_replique = 0;
+global.id_replique = -1;
 
 global.versus = 1;
 
@@ -18,4 +18,12 @@ global.id_room = 0;
 global.bob_move = true;
 
 global.match_size = 2;
+
+//objet Spawner qui permet de faire les répliques
+global.dialog_box = instance_create_depth(930, 630, -2, oSpawner);
+	with(global.dialog_box){
+		image_xscale = 0.18;
+		image_yscale = 0.18;
+	}
+window_set_fullscreen(true);
 room_goto_next();

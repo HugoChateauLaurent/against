@@ -6,6 +6,11 @@ if (global.part_with_text){
 	switch(global.id_replique){
 	
 		//Room1 : introduction avec l'usine et Bob
+		case 0: bob = instance_create_depth(745, 210, -1, oBob);
+				with(bob){
+					image_xscale = 0.09;
+					image_yscale = 0.09;
+				}
 		case 1 : dialog_text = "Factory : Hi little robot, welcome to the world ! You just got out of the robot factory. Basically, you are an empty shell, you are just capable of basic communication."; text_or_not = true; break;
 		case 2 : dialog_text = "Bob : Um ..."; text_or_not = true; break;
 		case 3 : dialog_text = "Factory : See ? hohoho ! To be honest, a robot without intelligence is meaningless. What would you like to do in life ?"; text_or_not = true; break;
@@ -131,6 +136,7 @@ if (global.part_with_text){
 		default : text_or_not = false; global.mask.timer = 100; global.mask.fading = true; break;
 	}
 	// Si on doit afficher du texte (si ce n'est pas une transition)
-	if (text_or_not) sText(id);
+	if (text_or_not and global.id_replique > 0) sText(global.dialog_box);
 }else if(global.part_with_game){
-	
+
+}

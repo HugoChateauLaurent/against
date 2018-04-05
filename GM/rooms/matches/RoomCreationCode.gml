@@ -32,5 +32,4 @@ with(bob_matches){
 }
 
 global.bob_move = false;
-
-
+global.dialog_box.sprite_index = sSpawnerNegatif;
