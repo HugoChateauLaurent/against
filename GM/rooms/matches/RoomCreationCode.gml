@@ -1,7 +1,7 @@
 global.active_match_color = make_colour_rgb(50, 180, 50); //couleur d'une alumette cliquée
 
-global.j1_match_color_inactive = make_colour_rgb(185, 207, 223);
-global.j2_match_color_inactive = make_colour_rgb(255, 221, 208);
+global.j1_match_color_inactive = make_colour_rgb(100, 150, 200);
+global.j2_match_color_inactive = make_colour_rgb(180, 190, 170);
 
 global.j1_match_color_hover = make_colour_rgb(58, 115, 155);
 global.j2_match_color_hover = make_colour_rgb(241, 124, 80);
