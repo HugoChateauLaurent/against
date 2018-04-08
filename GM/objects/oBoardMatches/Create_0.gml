@@ -12,7 +12,7 @@ pos_x = 100; // x grid position
 pos_y = 400; // y grid position
 
 var tmp_piece;
-var id_board = id; //on stocke l'idée de l'instance dans une variable locale pour y accéder dans les with
+var id_board = id; //on stocke l'id de l'instance dans une variable locale pour y accéder dans les matches dans le with
 
 //crée les cases
 for (var i = 0; i < nb_match; ++i) {
@@ -28,3 +28,4 @@ for (var i = 0; i < nb_match; ++i) {
 
 player = 1; //it's player1's turn
 
+sgame_dialogue();

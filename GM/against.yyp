@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "01a2dd63-7987-480a-8e23-d0343336685d",
+            "Value": {
+                "id": "b2046f65-876f-4e1f-8497-7eb8d0b6d234",
+                "resourcePath": "scripts\\sgame_dialogue\\sgame_dialogue.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "02abb3ee-2015-4c1b-94b8-99ecab0e04d5",
             "Value": {
                 "id": "ea01f2e0-b4ad-4179-92be-aca420ca709a",
@@ -243,6 +251,14 @@
             "Value": {
                 "id": "03f445aa-b6f2-4813-aba6-cc478723888a",
                 "resourcePath": "views\\4cac3867-6fff-4721-bd5b-9b485bd5f7f5.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4df3c598-16da-48fa-b197-a4611a76e287",
+            "Value": {
+                "id": "65d2d200-2e29-4cd7-a3e7-4cb3a1c57149",
+                "resourcePath": "views\\4df3c598-16da-48fa-b197-a4611a76e287.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -970,7 +986,8 @@
         "79f379f0-18bb-48d2-b9b2-0a880a411ba1",
         "4b715347-eb13-42cb-a4fd-b05f453481e4",
         "ae5dfe7b-3e56-4a75-ac0f-ddc1329b517b",
-        "3fcb2623-d369-4ff4-a931-397d0bb98759"
+        "3fcb2623-d369-4ff4-a931-397d0bb98759",
+        "01a2dd63-7987-480a-8e23-d0343336685d"
     ],
     "tutorial": ""
 }

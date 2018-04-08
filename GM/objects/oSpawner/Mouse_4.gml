@@ -137,6 +137,5 @@ if (global.part_with_text){
 	}
 	// Si on doit afficher du texte (si ce n'est pas une transition)
 	if (text_or_not and global.id_replique > 0) sText(global.dialog_box);
-}else if(global.part_with_game){
-
+	
 }

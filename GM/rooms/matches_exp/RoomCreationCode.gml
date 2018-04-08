@@ -23,3 +23,4 @@ global.winner = 0;
 global.versus = 3;
 
 global.id_room = 6;
+
