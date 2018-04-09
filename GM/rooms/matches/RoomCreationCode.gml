@@ -13,17 +13,15 @@ global.black_match_color = make_colour_rgb(0, 0, 0);
 global.white_match_color = make_colour_rgb(255, 255, 255);
 
 global.match_size = 2;
-
-board = instance_create_depth(0,0,1000, oBoardMatches); //create board	
-
-/// scores
-global.winner = 0;
-global.versus = 1;
-
 /// dialogue
 global.part_with_text = false;
 global.part_with_game = true;
 global.id_replique = 1;
+
+
+/// scores
+global.winner = 0;
+global.versus = 1;
 
 
 global.id_room = 3;
@@ -35,5 +33,7 @@ with(bob_matches){
 }
 global.bob_move = false;
 global.dialog_box.sprite_index = sSpawnerNegatif;
+
+board = instance_create_depth(0,0,1000, oBoardMatches); //create board	
 
 

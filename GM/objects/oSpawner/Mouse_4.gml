@@ -1,6 +1,7 @@
 /// @description Choisis la réplique à afficher dans la boite de dialogue
 
 if (global.part_with_text){
+	show_debug_message("on rentre dans la conditon du spawner est l'id est " + string(global.id_replique));
 	global.id_replique++;
 	show_debug_message(string(global.id_replique));
 	switch(global.id_replique){

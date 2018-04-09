@@ -5,12 +5,12 @@
 var match = argument0;
 
 var idLeft = ma_mathes_left(match.board);
-show_debug_message(string(match.board.player));
+show_debug_message("player " + string(match.board.player));
 var nbPossible = idLeft -3; 
 
 show_debug_message("coordonée " + string(match.coordY));
 
-if ((match.coordY > nbPossible )&& match.active){
+if ((match.coordY > nbPossible ) && match.active){
 	if (match.board.player==1){
 		match.board.player = 2;
 		var color = global.j1_match_color_inactive;
