@@ -26,4 +26,6 @@ global.dialog_box = instance_create_depth(930, 630, -2, oSpawner);
 		image_yscale = 0.18;
 	}
 window_set_fullscreen(true);
+draw_enable_swf_aa(true);
+draw_set_swf_aa_level(1);
 room_goto_next();
