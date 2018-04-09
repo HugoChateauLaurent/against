@@ -54,7 +54,7 @@ for(var i = 0; i<max_length-1; i++) {
 
 if(board.nb_pieces[0] == 0 || board.nb_pieces[1] == 0) {
 	for(var i=0; i<2; i++) {
-		board.scores[i] += 5*board.nb_pieces[i];	
+		board.scores[i] += 0*board.nb_pieces[i];	
 	}
 	
 	if(board.scores[0] > board.scores[1]) {
