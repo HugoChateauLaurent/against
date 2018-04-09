@@ -1,6 +1,6 @@
 /// @description Insert description here
 // Mouvement
-
+/*
 MOVELEFT = keyboard_check(vk_left);
 MOVERIGHT = keyboard_check(vk_right);
 MOVEUP = keyboard_check(vk_up);
@@ -83,4 +83,4 @@ if(global.bob_move) {
 	} else if (y < 775) {
 		image_xscale = 0.32; image_yscale = 0.32;
 	}
-}
+}*/
