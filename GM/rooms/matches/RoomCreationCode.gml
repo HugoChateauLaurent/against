@@ -1,11 +1,11 @@
 global.active_match_color = make_colour_rgb(50, 180, 50); //couleur d'une alumette cliquée
 
-global.j1_match_color_inactive = make_colour_rgb(100, 150, 200);
-global.j2_match_color_inactive = make_colour_rgb(180, 190, 170);
+global.j1_match_color_inactive = make_colour_rgb(0, 0, 0);
+global.j2_match_color_inactive = make_colour_rgb(0, 0, 0);
 
-global.j1_match_color_hover = make_colour_rgb(58, 115, 155);
+global.j1_match_color_hover = make_colour_rgb(80, 80, 80);
 //// parametres de la room
-global.j2_match_color_hover = make_colour_rgb(241, 124, 80);
+global.j2_match_color_hover = make_colour_rgb(80, 80, 80);
 
 global.match_color = make_colour_rgb(255, 255, 255);
 
@@ -22,6 +22,8 @@ global.id_replique = 1;
 /// scores
 global.winner = 0;
 global.versus = 1;
+
+global.clickable = true;
 
 
 global.id_room = 3;

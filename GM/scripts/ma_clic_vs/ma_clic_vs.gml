@@ -23,10 +23,8 @@ if ((match.coordY > nbPossible ) && match.active){
 	if(match.coordY == 0 ){
 		global.winner = match.board.player;
 	}
-	if (global.versus == 1){
-		ma_vs_random_looser(match);
-	}else{
-		ma_vs_expert(match);
-	}
+	global.clickable = false;
+	match.alarm[0] = room_speed * 2;
+	
 
 }
