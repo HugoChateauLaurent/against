@@ -3,9 +3,9 @@ global.active_match_color = make_colour_rgb(50, 180, 50); //couleur d'une alumet
 global.j1_match_color_inactive = make_colour_rgb(0, 0, 0);
 global.j2_match_color_inactive = make_colour_rgb(0, 0, 0);
 
-global.j1_match_color_hover = make_colour_rgb(80, 80, 80);
+global.j1_match_color_hover = make_colour_rgb(50, 180, 50);
 //// parametres de la room
-global.j2_match_color_hover = make_colour_rgb(80, 80, 80);
+global.j2_match_color_hover = make_colour_rgb(50, 180, 50);
 
 global.match_color = make_colour_rgb(255, 255, 255);
 
