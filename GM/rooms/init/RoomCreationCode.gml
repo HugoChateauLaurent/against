@@ -27,7 +27,7 @@ with(global.dialog_box){
 }
 display_reset(8,true);
 
-
+window_set_size( 1920, 1080 );
 
 
 
