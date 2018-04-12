@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "oWendy",
     "eventList": [
-        
+        {
+            "id": "b4a9ce83-373a-45b3-95b6-3f7a103c1dac",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "9031b38f-c7d5-4807-a0bd-2cb00f745281"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

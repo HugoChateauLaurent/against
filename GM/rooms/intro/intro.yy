@@ -27,7 +27,7 @@
             "inheritVisibility": false,
             "instances": [
 {"name": "factory","id": "33b4aa22-c7a8-4be8-9506-14b579b24980","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_factory.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "factory","objId": "31f65d98-7146-409e-acf9-df83932eb256","properties": null,"rotation": 0,"scaleX": -1,"scaleY": 1,"mvc": "1.0","x": 736,"y": 64},
-{"name": "bob","id": "8d784148-2a43-494a-8307-f423a278141f","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_bob.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "bob","objId": "b9886fb8-e589-4bf2-a16f-ea92f716716c","properties": null,"rotation": 0,"scaleX": 0.07,"scaleY": 0.07,"mvc": "1.0","x": 549,"y": 480}
+{"name": "zbleurk","id": "8d784148-2a43-494a-8307-f423a278141f","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_zbleurk.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": true,"modelName": "GMRInstance","name_with_no_file_rename": "zbleurk","objId": "b9886fb8-e589-4bf2-a16f-ea92f716716c","properties": null,"rotation": 0,"scaleX": 0.07,"scaleY": 0.07,"mvc": "1.0","x": 549,"y": 480}
             ],
             "layers": [
 

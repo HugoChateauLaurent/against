@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "75abd8f9-c56a-451e-be84-069521ff8dcf",
+            "Value": {
+                "id": "4ea9b833-9233-4ddf-90cb-8a6700918e07",
+                "resourcePath": "paths\\pWendy\\pWendy.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
             "Value": {
                 "id": "5d35433a-a5fb-4aba-bb26-a1d722a141be",
@@ -932,6 +940,14 @@
                 "id": "ff32702a-359c-44b8-93ee-b277fcf5e366",
                 "resourcePath": "options\\xboxone\\options_xboxone.yy",
                 "resourceType": "GMXBoxOneOptions"
+            }
+        },
+        {
+            "Key": "fd583718-8d5b-41b6-a54e-fc64ad796408",
+            "Value": {
+                "id": "8eb4ac80-bcec-47b3-a3fe-260dc803bfcf",
+                "resourcePath": "paths\\pBob_factory\\pBob_factory.yy",
+                "resourceType": "GMPath"
             }
         },
         {
