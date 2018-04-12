@@ -28,10 +28,11 @@ global.clickable = true;
 
 global.id_room = 3;
 
-bob_matches = instance_create_depth(420, 100, 0, oBob);
+bob_matches = instance_create_depth(510, 150, 0, oBob);
 with(bob_matches){
-	image_xscale = 0.4;
-	image_yscale = 0.4;
+	image_xscale = 0.3;
+	image_yscale = 0.3;
+	objectif = 0.3;
 }
 global.bob_move = false;
 global.dialog_box.sprite_index = sSpawnerNegatif;

@@ -2,7 +2,6 @@
 
 global.mask.image_blend = c_black;
 global.mask.persistent = true;
-
 global.id_replique = -1;
 
 global.versus = 1;
@@ -25,9 +24,12 @@ with(global.dialog_box){
 	image_xscale = 0.18;
 	image_yscale = 0.18;
 }
-display_reset(8,true);
 
-window_set_size( 1920, 1080 );
+display_reset(8,true);
+window_set_size(1920,1080);
+window_set_fullscreen(true);
+
+
 
 
 

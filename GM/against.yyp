@@ -447,6 +447,14 @@
             }
         },
         {
+            "Key": "8332c57c-34e3-4af2-9d04-5e9039b859ba",
+            "Value": {
+                "id": "81b389b4-50fd-48d3-b6a3-fb18ed975bdb",
+                "resourcePath": "sprites\\sBobDos\\sBobDos.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
             "Value": {
                 "id": "4ac20cea-9fb2-4309-b65f-0422e8cb6238",
