@@ -1,5 +1,7 @@
 global.id_room = 4;
 global.id_replique = 11;
+global.part_with_game =  false;
+global.part_with_text = true ;
 
 bob_dialog_wendy = instance_create_depth(400, 283, 0, oBob);
 with (bob_dialog_wendy) {

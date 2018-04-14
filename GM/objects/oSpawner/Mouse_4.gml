@@ -143,4 +143,18 @@
 		}
 		// Si on doit afficher du texte (si ce n'est pas une transition)
 		if (text_or_not and global.id_replique > 0) sText(global.dialog_box);
+	}if(global.part_with_game){
+		show_debug_message("on rentre dans la conditon 2 du spawner est l'id est " + string(global.id_replique));
+		global.id_replique++;
+		show_debug_message(string(global.id_replique));
+		switch(global.id_replique){
+			//Room18 : Fin du monde 2 et début du monde 3 en construction..
+			case 93 : dialog_text = "Bob : It's so cool !! I'm proud of us ! We learned a lot together!"; text_or_not = true; break;
+			// Attendre 1 sec, allumer la lumière de Bob avant d'afficher le dialogue
+			case 94 : dialog_text = "Bob : Oh... looks like there's a train to get to the next world but the station's under construction. :/ In the meantime we can review WINNING SOLUTIONS, EXPERT SYSTEMS, MINIMAX or ALPHA-BÊTA if you want?"; text_or_not = true; break;
+	
+	
+			//Permet de changer de room
+			case 1000 : text_or_not = false; global.mask.timer = 20; global.mask.fading = true; break;
+		}
 	}

@@ -1,7 +1,7 @@
 /// @description BoardMaches initialisation
 // You can write your code in this editor
 
-if (global.versus == 2){
+if (global.id_room == 5){
 	nb_match = 5;// number of mathes
 	tour = 0;
 }else{
