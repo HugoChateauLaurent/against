@@ -1,4 +1,4 @@
- global.mask = instance_create_depth(30,30,-999,oMask);
+global.mask = instance_create_depth(30,30,-999,oMask);
 
 global.mask.image_blend = c_black;
 global.mask.persistent = true;
@@ -26,11 +26,8 @@ with(global.dialog_box){
 }
 
 display_reset(8,true);
-window_set_size(1920,1080);
+window_set_size(1366,768);
 window_set_fullscreen(true);
-
-
-
 
 
 
