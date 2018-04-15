@@ -23,5 +23,7 @@ global.winner = 0;
 
 global.versus = 3;
 
+global.dialog_box.sprite_index = sSpawnerNegatif;
+
 
 

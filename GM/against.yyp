@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "409e9fdf-882e-47d8-ba13-b40212409d04",
+            "Value": {
+                "id": "0e4c7d40-b652-4d8a-bc37-f8e63032e5ee",
+                "resourcePath": "paths\\pBob_find_checkers\\pBob_find_checkers.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "48402f71-92ed-42b3-b167-462875bcb0be",
             "Value": {
                 "id": "8981aa33-ce75-4ef1-81d2-7b3dc801d503",
@@ -276,6 +284,14 @@
                 "id": "045733f9-6a0a-44a2-9c11-e8ef826d04c1",
                 "resourcePath": "sprites\\sMatchesGame\\sMatchesGame.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "50d55c71-fc9e-4e07-b9cd-c4d2263d19c5",
+            "Value": {
+                "id": "042d3a9a-46aa-44db-8acf-93a9fc6bd57b",
+                "resourcePath": "paths\\pBob_arrive\\pBob_arrive.yy",
+                "resourceType": "GMPath"
             }
         },
         {
@@ -372,6 +388,14 @@
                 "id": "401e1545-1931-445e-b2a6-2e65514993f9",
                 "resourcePath": "objects\\oChAction\\oChAction.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "72c9644b-9237-45fd-a6c5-abea8b2dfdfa",
+            "Value": {
+                "id": "16bac35e-3632-4493-8555-16fd397055c7",
+                "resourcePath": "sprites\\sCheckersGame\\sCheckersGame.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -703,6 +727,14 @@
             }
         },
         {
+            "Key": "ae92f30c-7725-4d49-8249-1795b8a0d913",
+            "Value": {
+                "id": "1c50136c-3706-4892-a2eb-106a19250250",
+                "resourcePath": "objects\\oCheckersGame\\oCheckersGame.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b044afcf-82b3-4154-9770-09eb015c6312",
             "Value": {
                 "id": "f1fa0509-e508-49db-9806-5dec3a284cfe",
@@ -794,7 +826,7 @@
             "Key": "c606cd41-fe61-4b81-9ed2-812b796d7c8a",
             "Value": {
                 "id": "eafeea3b-299a-43ba-b537-e74e7ee4cfd1",
-                "resourcePath": "paths\\pBob_find_game\\pBob_find_game.yy",
+                "resourcePath": "paths\\pBob_find_matches\\pBob_find_matches.yy",
                 "resourceType": "GMPath"
             }
         },
@@ -815,11 +847,27 @@
             }
         },
         {
+            "Key": "caf620b9-e089-49cf-8857-0b0ae668d5da",
+            "Value": {
+                "id": "11db4b69-498a-4f79-b792-a7e46dedeec9",
+                "resourcePath": "rooms\\transition2\\transition2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "02ceef7e-731e-40db-b250-0ec0162435b0",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d09572da-fb6d-4292-9e54-9104a6cc703e",
+            "Value": {
+                "id": "526bfdad-7e9d-448d-9126-a8c043ef168a",
+                "resourcePath": "rooms\\transition3\\transition3.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

@@ -21,3 +21,5 @@ with(matches_game){
 
 global.bob_transition1.alarm[0] = room_speed * 1;
 global.bob_transition1.alarm[1] = room_speed * 7;
+
+global.dialog_box.sprite_index = sSpawner;
