@@ -6,6 +6,7 @@ if (global.id_room == 5){
 	tour = 0;
 }else{
 	nb_match = 21; // number of mathes
+	tour = -1;
 }
 spacing = 10*global.match_size + 20; // match spacing 
 pos_x = 100; // x grid position
