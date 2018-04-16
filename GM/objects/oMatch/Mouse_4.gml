@@ -10,7 +10,8 @@ if(global.clickable) {
 	if (global.versus != 2){
 		ma_clic_vs(id);
 	}else{
-		if (coordY == ma_clic_tuto(board){
+		if (coordY == ma_clic_tuto(board)){
 			ma_clic_vs(id);
+		}
 	}
 }
