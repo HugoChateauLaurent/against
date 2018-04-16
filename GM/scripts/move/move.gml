@@ -66,7 +66,7 @@ if(board.nb_pieces[0] == 0 || board.nb_pieces[1] == 0) {
 
 highlight_board(board, noone, simulation) //reset highlight
 board.player = !board.player; //next player's turn
-if(board.player == global.bot_index && board.against_bot == 1) {
+if(board.player == global.bot_index && board.against_bot == 1 && board.status==-1) {
 	ch_bot_move(board);
 }
 
