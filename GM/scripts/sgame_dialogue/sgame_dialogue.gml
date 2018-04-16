@@ -18,9 +18,9 @@ if(global.part_with_game){
 		case 5 : global.dialog_box.dialog_text = "Bob : Damn, I concede that you're strong, well played !"; text_or_not = true; break;
 		
 		//Room5 :  wining solution exeplanations
-		case 10 : global.dialog_box.dialog_text = "Bob : now I only have to take the next 3 matches to win because there will be only one"; text_or_not = true; break;
-		
-	
+		case 15 : global.dialog_box.dialog_text = "Bob : Now I only have to take the next 3 matches to win because there will be only one left"; text_or_not = true; break;
+		case 16 : global.dialog_box.dialog_text = "Bob : This time I have to take the next 2 matches to win because there will be only one left"; text_or_not = true; break;
+		case 17 : global.dialog_box.dialog_text = "Bob : Now I have to take the next matche to win because there will be only one left"; text_or_not = true; break;	
 		//Permet de changer de room
 		default : text_or_not = false; global.mask.timer = 100; global.mask.fading = true; break;
 	}
