@@ -2,7 +2,7 @@
     "id": "c606cd41-fe61-4b81-9ed2-812b796d7c8a",
     "modelName": "GMPath",
     "mvc": "1.0",
-    "name": "pBob_find_game",
+    "name": "pBob_find_matches",
     "closed": false,
     "hsnap": 0,
     "kind": 1,

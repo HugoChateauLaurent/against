@@ -9,8 +9,9 @@ show_debug_message(string(match.board.player));
 
 var idLeft = ma_mathes_left(match.board);/// number of matches as changed
 var nbPossible = idLeft -3; 
-if (idLeft>15 && idLeft < 20){
-	global.id_replique = 2;
+
+if( idLeft < 6 ){
+	global.id_replique = 3;
 	sgame_dialogue();
 }
 match.board.player = 1;
@@ -22,8 +23,11 @@ if( idLeft < 3 ){/// here is some id, the min id is 0
 		match.board.array_matches[i].active = false;
 		match.board.array_matches[i].image_blend = color;
 	}
-	global.id_replique = 3;
+	global.id_replique = 5;// bob loose : show a message 
 	sgame_dialogue();
+	global.id_replique = 999;//go to next room
+
+	
 }else{
 	var r = irandom(2); /// number between 0 and 2 because we use it on id
 	for ( var i = idLeft - r ; i < idLeft + 1 ; i++){

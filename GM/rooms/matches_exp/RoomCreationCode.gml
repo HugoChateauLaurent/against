@@ -1,3 +1,4 @@
+global.id_room = 6;
 global.active_match_color = make_colour_rgb(50, 180, 50); //couleur d'une alumette cliquée
 global.j1_match_color_inactive = make_colour_rgb(185, 207, 223);
 global.j2_match_color_inactive = make_colour_rgb(255, 221, 208);
@@ -22,5 +23,7 @@ global.winner = 0;
 
 global.versus = 3;
 
-global.id_room = 6;
+global.dialog_box.sprite_index = sSpawnerNegatif;
+
+
 

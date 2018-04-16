@@ -1,3 +1,4 @@
+global.id_room = 3;
 global.active_match_color = make_colour_rgb(50, 180, 50); //couleur d'une alumette cliquée
 
 global.j1_match_color_inactive = make_colour_rgb(0, 0, 0);
@@ -25,8 +26,6 @@ global.versus = 1;
 
 global.clickable = true;
 
-
-global.id_room = 3;
 
 bob_matches = instance_create_depth(510, 150, 0, oBob);
 with(bob_matches){
