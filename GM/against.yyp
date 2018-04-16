@@ -775,6 +775,14 @@
             }
         },
         {
+            "Key": "b728ef67-b626-4b42-8c59-b0a76f70d4f1",
+            "Value": {
+                "id": "f2eccb3f-8ba9-42d9-99b5-c25559b4f0b5",
+                "resourcePath": "sounds\\LTBL\\LTBL.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "b882c514-3554-466b-b6ca-f72953a0352b",
             "Value": {
                 "id": "e6ef7b48-a0bf-49bd-99d8-6145e05395f3",
