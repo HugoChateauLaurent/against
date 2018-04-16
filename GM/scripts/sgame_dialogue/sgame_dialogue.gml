@@ -10,8 +10,8 @@ if(global.part_with_game){
 	switch(global.id_replique){
 	
 		//Room3 : matches aigainst a random player
-		case 100 : global.dialog_box.dialog_text = " "; text_or_not = true; break;
-		case 1 : global.dialog_box.dialog_text = "Bob : It's up to you to play, you start!"; text_or_not = true; break;
+		case 100 : global.dialog_box.dialog_text = " Goal : do not take the last match \n At each turn you can remove between 1 and 3 matches"; text_or_not = true; break;
+		case 1 : global.dialog_box.dialog_text = " Goal : do not take the last match \n At each turn you can remove between 1 and 3 matches \n Bob : It's up to you to play, you start!"; text_or_not = true; break;
 		case 2 : global.dialog_box.dialog_text = "Bob : Well played"; text_or_not = true; break;
 		case 3 : global.dialog_box.dialog_text = "Bob : Oh... We're getting closer to the end..."; text_or_not = true; break;
 		case 4 : global.dialog_box.dialog_text = "Bob : I won ! Isn't cool ?"; text_or_not = true; break;
