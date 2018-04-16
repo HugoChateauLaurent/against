@@ -27,4 +27,8 @@ for ( var i = idLeft - r ; i < idLeft + 1 ; i++){
 }
 if (idLeft == 0){
 	global.winner = match.board.player;
+	global.id_replique = 5;// bob loose : show a message 
+	sgame_dialogue();
+	global.id_replique = 999;//go to next room
+
 }

@@ -10,7 +10,7 @@ show_debug_message(string(match.board.player));
 var idLeft = ma_mathes_left(match.board);/// number of matches as changed
 var nbPossible = idLeft -3; 
 
-if( idLeft < 6 ){
+if( idLeft < 7  ){
 	global.id_replique = 3;
 	sgame_dialogue();
 }
