@@ -4,3 +4,4 @@ global.id_replique = -1;
 global.id_room = 1;
 window_set_fullscreen(false);
 window_set_size(1920,1080);
+audio_play_sound(LTBL, 0, true);
