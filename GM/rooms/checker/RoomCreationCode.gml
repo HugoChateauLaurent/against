@@ -28,7 +28,7 @@ global.piece_size = 0.25;
 global.bot_index = 0;
 window_set_fullscreen(false);
 score = instance_create_depth(10,10,-20, oScore);
-
+global.dialog_box.visible = false;
 global.id_room = 7;
 
 global.dialog_box.sprite_index = sSpawnerNegatif;
