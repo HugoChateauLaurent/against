@@ -25,6 +25,10 @@ global.directions[3] = 2;
 global.square_size = 0.25;
 global.piece_size = 0.25;
 
+global.rules = true;
+global.part_with_game = true;
+global.part_with_text = false;
+
 global.bot_index = 0;
 window_set_fullscreen(false);
 score = instance_create_depth(10,10,-20, oScore);

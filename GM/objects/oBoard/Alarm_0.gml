@@ -3,6 +3,7 @@
 
 var mode = "alphabeta";
 
+
 var actions = ch_get_actions(id);
 var best_index = noone;
 if(mode == "random") {

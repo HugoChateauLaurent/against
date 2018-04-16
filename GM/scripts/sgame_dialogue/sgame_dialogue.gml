@@ -25,6 +25,10 @@ if(global.part_with_game){
 		case 15 : global.dialog_box.dialog_text = "Bob : Now I only have to take the next 3 matches to win because there will be only one left"; text_or_not = true; break;
 		case 16 : global.dialog_box.dialog_text = "Bob : This time I have to take the next 2 matches to win because there will be only one left"; text_or_not = true; break;
 		case 17 : global.dialog_box.dialog_text = "Bob : Now I have to take the next matche to win because there will be only one left"; text_or_not = true; break;	
+		
+		//Room  Checkers
+		case 300: global.dialog_box.dialog_text = " Goal : At the end of the game your number of points have to be higher than your opponents. \n 1 eaten pawn = 1 points \n 1 pawn on the other side of the board = 5 points"; text_or_not = true; break;	
+		
 		//Permet de changer de room
 		default : text_or_not = false; global.mask.timer = 100; global.mask.fading = true; break;
 	}
