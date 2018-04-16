@@ -5,8 +5,6 @@
 
 
 if(global.clickable) {
-	global.id_replique = 100;
-	sgame_dialogue();
 	if (global.versus != 2){
 		ma_clic_vs(id);
 	}else{

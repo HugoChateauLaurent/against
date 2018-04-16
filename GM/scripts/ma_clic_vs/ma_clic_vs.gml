@@ -11,10 +11,7 @@ var nbPossible = idLeft -3;
 show_debug_message("coordonée " + string(match.coordY));
 
 if ((match.coordY > nbPossible ) && match.active){
-	if (idLeft>15 && idLeft < 20){
-		global.id_replique = 2;
-		sgame_dialogue();
-	}
+	
 	if (match.board.player==1){
 		match.board.player = 2;
 		var color = global.j1_match_color_inactive;

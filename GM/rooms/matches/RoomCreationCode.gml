@@ -23,6 +23,7 @@ global.id_replique = 1;
 /// scores
 global.winner = 0;
 global.versus = 1;
+global.rules = true;
 
 global.clickable = true;
 

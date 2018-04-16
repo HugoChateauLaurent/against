@@ -24,6 +24,8 @@ global.id_replique = 1;
 global.winner = 0;
 global.versus = 1;
 
+global.rules = true; 
+
 global.clickable = true;
 
 
