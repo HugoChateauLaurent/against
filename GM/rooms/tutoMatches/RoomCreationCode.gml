@@ -1,3 +1,4 @@
+room_goto_next();
 global.id_room = 5;
 global.active_match_color = make_colour_rgb(50, 180, 50); //couleur d'une alumette cliquée
 

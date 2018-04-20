@@ -1,5 +1,5 @@
 // donne le numéro de la réplique suivante
-global.id_replique = -1;
+global.id_replique = 0;
 // donne le numéro de la room
 global.id_room = 1;
 

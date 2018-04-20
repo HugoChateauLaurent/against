@@ -6,7 +6,7 @@ if (global.part_with_text){
 	switch(global.id_replique){
 			
 		//Room1 : introduction avec l'usine et Bob
-		case 0 : zbleurk.dos = true; break;
+	
 		case 1 : factory.active = true;dialog_text = "Factory : Hi little robot, welcome to the world ! You just got out of the robot factory. Basically, you are an empty shell, you are just capable of basic communication."; text_or_not = true; break;
 		case 2 : factory.active = false;dialog_text = "Bob : Um ..."; text_or_not = true; break;
 		case 3 : factory.active = true;dialog_text = "Factory : See ? hohoho ! To be honest, a robot without intelligence is meaningless. What would you like to do in life ?"; text_or_not = true; break;

@@ -29,7 +29,7 @@ display_reset(8,true);
 
 //Configuration de la taille de la fenêtre
 window_set_fullscreen(false);
-window_set_size(1920,1080);
+window_set_size(1366,768);
 
 audio_play_sound(LTBL, 0, true);
 room_goto_next();
