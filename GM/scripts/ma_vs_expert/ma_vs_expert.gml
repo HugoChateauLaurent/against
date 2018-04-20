@@ -13,22 +13,22 @@ var color = global.j2_match_color_inactive;
 var r = irandom(2); /// number between 0 and 2 because we use it on id
 var modulo4 = (idLeft+1) mod 4;
 
-
-if ( modulo4 == 2){
-	r = 0;
-}else if ( modulo4 == 3){
-	r = 1;
-}else if ( modulo4 == 0){
-	r = 2;
-}
-for ( var i = idLeft - r ; i < idLeft + 1 ; i++){
-	match.board.array_matches[i].active = false;
-	match.board.array_matches[i].image_blend = color;
+if (idLeft >1){
+	if ( modulo4 == 2){
+		r = 0;
+	}else if ( modulo4 == 3){
+		r = 1;
+	}else if ( modulo4 == 0){
+		r = 2;
+	}
+	for ( var i = idLeft - r ; i < idLeft + 1 ; i++){
+		match.board.array_matches[i].active = false;
+		match.board.array_matches[i].image_blend = color;
+	}
 }
 if (idLeft == 0){
 	global.winner = match.board.player;
 	global.id_replique = 5;// bob loose : show a message 
 	sgame_dialogue();
 	global.id_replique = 999;//go to next room
-
 }
