@@ -71,4 +71,3 @@ if(board.player == global.bot_index && board.against_bot == 1 && board.status==-
 }
 
 board.paths = noone;
-

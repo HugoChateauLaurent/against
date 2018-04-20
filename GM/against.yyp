@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "2aff5821-f397-4440-a025-8479be7c2402",
+            "Value": {
+                "id": "8780db5c-b2b2-43e8-8e79-dbb1ea7029ab",
+                "resourcePath": "rooms\\rTreeAB\\rTreeAB.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "2f1bbcb1-1ea1-4a53-aac1-cbe278f94b86",
             "Value": {
                 "id": "ebc0793f-6da0-4b43-9784-b4637c2cfac0",
@@ -228,6 +236,14 @@
                 "id": "fc3f60fe-0e7d-44e4-acfb-86364c6e1483",
                 "resourcePath": "options\\ps4\\options_ps4.yy",
                 "resourceType": "GMPS4Options"
+            }
+        },
+        {
+            "Key": "3daca4e7-073a-42af-998a-c32fe9347c3d",
+            "Value": {
+                "id": "9570d1db-91ec-4982-99d0-98e456710dab",
+                "resourcePath": "objects\\oMask_Tree\\oMask_Tree.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -431,6 +447,14 @@
             }
         },
         {
+            "Key": "75388c81-8cb1-431e-9681-e5a7618dcc8f",
+            "Value": {
+                "id": "0ea34118-5404-4255-898d-365b5396ec8d",
+                "resourcePath": "objects\\oTree1\\oTree1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "75abd8f9-c56a-451e-be84-069521ff8dcf",
             "Value": {
                 "id": "4ea9b833-9233-4ddf-90cb-8a6700918e07",
@@ -460,6 +484,14 @@
                 "id": "d3a42cf2-87ef-447a-903a-97f34e2c1fc0",
                 "resourcePath": "views\\7a8df563-af7f-4a4c-b3b8-00f5fe68efb9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7adbac53-3a80-4362-9e77-70366218447d",
+            "Value": {
+                "id": "2261c2bb-3ce2-47b3-aa53-db34a15ea9c0",
+                "resourcePath": "rooms\\checker_AB\\checker_AB.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -618,7 +650,7 @@
             "Key": "98a42468-c905-43e0-bd2d-d2799cd73e1d",
             "Value": {
                 "id": "168b1efc-9c9b-4eaa-91f8-a43ab0e80a3b",
-                "resourcePath": "rooms\\rTree\\rTree.yy",
+                "resourcePath": "rooms\\rTreeMinimax\\rTreeMinimax.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -823,6 +855,14 @@
             }
         },
         {
+            "Key": "b932598f-6173-41dc-a263-eb4d439b2af1",
+            "Value": {
+                "id": "d85a4ead-9d6d-45dc-9251-233c17078d7a",
+                "resourcePath": "sprites\\sprite20\\sprite20.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b9886fb8-e589-4bf2-a16f-ea92f716716c",
             "Value": {
                 "id": "a4ffd2a1-6433-4dda-8875-69bc5bb224c4",
@@ -996,6 +1036,14 @@
                 "id": "2d484ef7-339d-43f0-9fa2-b72180a8ac1f",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "e8fc533d-bd76-4103-b1f6-370b3f99300a",
+            "Value": {
+                "id": "2f488d8c-e6bc-42e5-aad0-d5172df0a3e4",
+                "resourcePath": "rooms\\checker1\\checker1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

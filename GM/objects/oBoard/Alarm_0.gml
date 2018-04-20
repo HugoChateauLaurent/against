@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var mode = "alphabeta";
+var mode = global.mode;
 
 
 var actions = ch_get_actions(id);
@@ -20,7 +20,7 @@ else if(mode == "minimax") {
 		highlight_board(new_board, new_board.squares[ds_list_find_value(actions, i).piece.coordX, ds_list_find_value(actions, i).piece.coordY].piece, false);
 		move(new_board, new_board.squares[ds_list_find_value(actions, i).destination.coordX,ds_list_find_value(actions, i).destination.coordY], false);
 		
-		value = ch_minimax(new_board, new_board.player, 4);
+		value = ch_minimax(new_board, new_board.player, 3);
 		if(best_index == noone || value > best_value) {
 			best_index = i;
 			best_value = value;

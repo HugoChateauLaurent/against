@@ -7,11 +7,12 @@ var board = argument0;
 var player = argument1;
 var limit = argument2;
 var max_node = player == board.player;
+var actions = ch_get_actions(board);
 
-if(limit==0 || board.status != -1) {
+if(limit==0 || board.status != -1 || array_length_1d(actions) == 0) {
 	return ch_evaluate(board, player);
 } else {
-	var actions = ch_get_actions(board);
+	
 	var new_board = noone;
 	var value = noone;
 	var best_value = noone;

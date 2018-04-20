@@ -1,6 +1,3 @@
-
-
-
 //couleur d'une pièce active
 global.active_piece_color = make_colour_rgb(50, 180, 50);
 global.active_square_color = global.active_piece_color;
@@ -31,8 +28,9 @@ global.piece_size = 0.25;
 global.rules = true;
 global.part_with_game = true;
 global.part_with_text = false;
-global.mode = "random";
+
 global.bot_index = 0;
+global.mode = "alphabeta";
 score = instance_create_depth(10,10,-20, oScore);
 global.dialog_box.visible = false;
 global.id_room = 7;

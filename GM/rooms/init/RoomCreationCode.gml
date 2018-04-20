@@ -28,7 +28,8 @@ with(global.dialog_box){
 display_reset(8,true);
 
 //Configuration de la taille de la fenêtre
-window_set_fullscreen(true);
-window_set_size(1366,768);
+window_set_fullscreen(false);
+window_set_size(1920,1080);
 
+audio_play_sound(LTBL, 0, true);
 room_goto_next();

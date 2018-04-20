@@ -1,6 +1,6 @@
 
 {
-    "name": "rTree",
+    "name": "rTreeMinimax",
     "id": "98a42468-c905-43e0-bd2d-d2799cd73e1d",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
