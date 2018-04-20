@@ -7,7 +7,7 @@
 if(global.clickable) {
 	if (global.versus != 2){
 		ma_clic_vs(id);
-	}else{
+	}else if global.id_room == 5{// if we are in tutorial room
 		if (coordY == ma_clic_tuto(board)){
 			ma_clic_vs(id);
 		}
