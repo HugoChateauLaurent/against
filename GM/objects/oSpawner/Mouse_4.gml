@@ -12,7 +12,7 @@ if (global.part_with_text){
 		case 3 : factory.active = true;dialog_text = "Factory : See ? hohoho ! To be honest, a robot without intelligence is meaningless. What would you like to do in life ?"; text_or_not = true; break;
 		case 4 : factory.active = false;dialog_text = "Bob : Um... I like games...?"; text_or_not = true; break;
 		case 5 : factory.active = true;dialog_text = "Factory : Games ? Hohoho ! Well Bobby, you need to travel the world and learn some algorithms !"; text_or_not = true; break;
-		case 6 : factory.active = false;dialog_text = "Bob : Algorithms ? Um, okay...?"; text_or_not = true; break;
+		case 6 : factory.active = false;dialog_text = "Bob : Algorithms ? Um, okay...?"; text_or_not = true;  break;
 	
 		//Room2 : Bob trouve le jeu des allumettes et joue avec l'utilisateur
 		case 8 : dialog_text = "Bob : Oh ! What is it... it looks like a game..."; text_or_not = true; break;
@@ -61,13 +61,23 @@ if (global.part_with_text){
 			global.bob_transition3.alarm[3] = room_speed * 2;
 			break;
 		case 31 :
-			dialog_text = "Bob : I think he's here! Quick, let's test it!"; text_or_not = true; break;
+			dialog_text = "Bob : I think he's here! Quick, let's test it!"; 
+			text_or_not = true; break;
 		case 32 : dialog_text = "Bob : Um... The rules seem more complicated than for the stick game, but it doesn't matter, let's try it."; text_or_not = true; break;
 	
 		//Room7 : Bob (random) vs User
 	
-		//Room8 : Bob recontre Edmund Simon
-		case 34 : dialog_text = "Bob : It's really hard! I tried to find a winning solution like Wendy taught us but I couldn't... How did you do it?"; text_or_not = true; break;
+		//Room8 : Bob rencontre Edmund Simon
+		case 34 : 
+			dialog_text = "Bob : It's really hard! I tried to find a winning solution like Wendy taught us but I couldn't... How did you do it?";
+			edmund = instance_create_depth(1200, 285, 0, oEdmund);
+			with (edmund) {
+				image_xscale = 0.4;
+				image_yscale = 0.4;
+			}
+			edmund.alarm[0] = room_speed * 1; 
+			text_or_not = true;
+			break;
 		case 35 : dialog_text = "E. S. : Did you say something about Wendy ? Ohoh I see you met my granddaughter. I’m Edmund Simon, nice to meet you. "; text_or_not = true; break;
 		case 36 : dialog_text = "Bob : Hello Sir, yes she taught me how to find winning solutions for games. But I don't see how to do this game, I guess it doesn't always work... Can you help me?"; text_or_not = true; break;
 		case 37 : dialog_text = "E. S. : Ohohoh, Yeah, she really likes winning solutions. But the winning solutions are only special cases of expert systems."; text_or_not = true; break;
@@ -143,10 +153,10 @@ if (global.part_with_text){
 		//Room18 : Fin du monde 2 et début du monde 3 en construction..
 		case 93 : dialog_text = "Bob : It's so cool !! I'm proud of us ! We learned a lot together!"; text_or_not = true; break;
 		// Attendre 1 sec, allumer la lumière de Bob avant d'afficher le dialogue
-		case 94 : dialog_text = "Bob : Oh... looks like there's a train to get to the next world but the station's under construction. :/ In the meantime we can review WINNING SOLUTIONS, EXPERT SYSTEMS, MINIMAX or ALPHA-BÊTA if you want?"; text_or_not = true; break;
+		case 94 : dialog_text = "Bob : Oh... looks like there's a train to get to the next world but the station's under construction. :/ In the meantime we can review WINNING SOLUTIONS, EXPERT SYSTEMS, MINIMAX or ALPHA-BÊTA if you want?"; global.dialog_box.visible = false; text_or_not = true; break;
 	
 		//Permet de changer de room
-		default : text_or_not = false; global.mask.timer = 20; global.mask.fading = true; break;
+		default : text_or_not = false; global.mask.timer = 20; global.mask.fading = true; global.dialog_box.visible = false; break;
 	}
 	// Si on doit afficher du texte (si ce n'est pas une transition)
 	if (text_or_not and global.id_replique > 0) sText(global.dialog_box);

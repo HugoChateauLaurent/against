@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "2f1bbcb1-1ea1-4a53-aac1-cbe278f94b86",
+            "Value": {
+                "id": "ebc0793f-6da0-4b43-9784-b4637c2cfac0",
+                "resourcePath": "paths\\pEdmund\\pEdmund.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "2f5e0689-4ab1-40d9-842b-339e6ee68091",
             "Value": {
                 "id": "62660916-3cd2-4ebc-a07c-857c85acb774",
@@ -244,6 +252,14 @@
                 "id": "8981aa33-ce75-4ef1-81d2-7b3dc801d503",
                 "resourcePath": "views\\48402f71-92ed-42b3-b167-462875bcb0be.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4a8d5270-9062-4084-b7c1-1459fffd45d7",
+            "Value": {
+                "id": "f02cedf5-f21e-431a-8eec-572ef2b47e81",
+                "resourcePath": "rooms\\dialogueEdmund\\dialogueEdmund.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

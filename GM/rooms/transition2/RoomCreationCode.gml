@@ -17,3 +17,4 @@ with(wendy_transition_2){
 }
 
 global.dialog_box.sprite_index = sSpawner;
+global.dialog_box.visible = true;

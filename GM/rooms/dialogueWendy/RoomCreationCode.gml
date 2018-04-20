@@ -11,3 +11,4 @@ with (bob_dialog_wendy) {
 }
 
 global.dialog_box.sprite_index = sSpawner;
+global.dialog_box.visible = true;

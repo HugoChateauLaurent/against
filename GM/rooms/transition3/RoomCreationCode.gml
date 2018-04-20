@@ -2,6 +2,8 @@ global.id_replique = 29;
 global.part_with_text = true;
 global.id_room = 8;
 global.bob_move = false;
+global.dialog_box.visible = true;
+
 
 global.bob_transition3 = instance_create_depth(-150, 460, 0, oBob);
 

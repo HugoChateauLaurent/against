@@ -37,4 +37,6 @@ global.bob_move = false;
 global.dialog_box.sprite_index = sSpawnerNegatif;
 
 board = instance_create_depth(0,0,1000, oBoardMatches); //create board	
+global.dialog_box.visible = true;
+
 
