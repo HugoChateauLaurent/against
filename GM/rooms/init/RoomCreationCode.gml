@@ -26,9 +26,9 @@ with(global.dialog_box){
 }
 
 display_reset(8,true);
-window_set_size(1366,768);
+
+//Configuration de la taille de la fenêtre
 window_set_fullscreen(true);
-
-
+window_set_size(1366,768);
 
 room_goto_next();
