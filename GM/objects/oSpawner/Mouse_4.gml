@@ -56,8 +56,7 @@ if (global.part_with_text){
 	
 		//Room6 : Arrivée dans la partie Expert System
 		case 30 : 
-			dialog_text = "Bob : Oh it's nice here, I was told that people in this area really like a board game, I don't know what it is but it looks nice"; text_or_not = true; 
-			global.part_with_text = false; 
+			dialog_text = "Bob : Oh it's nice here, I was told that people in this area really like a board game, I don't know what it is but it looks nice"; text_or_not = true;
 			global.bob_transition3.alarm[3] = room_speed * 2;
 			break;
 		case 31 :
