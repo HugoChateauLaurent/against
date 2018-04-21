@@ -3,57 +3,57 @@
 draw_set_colour(c_white);
 draw_set_alpha(1);
 
-
+var ratio = global.window_size/1920;
 if(step == 0) {
-	draw_text_transformed(415,740,"7",3,3,0);
-	draw_text_transformed(816,740,"5",3,3,0);
-	draw_text_transformed(1105,740,"2",3,3,0);
-	draw_text_transformed(1505,740,"0",3,3,0);
+	draw_text_transformed(415*ratio,740*ratio,"7",3*ratio,3*ratio,0);
+	draw_text_transformed(816*ratio,740*ratio,"5",3*ratio,3*ratio,0);
+	draw_text_transformed(1105*ratio,740*ratio,"2",3*ratio,3*ratio,0);
+	draw_text_transformed(1505*ratio,740*ratio,"0",3*ratio,3*ratio,0);
 	
 	mask_tree.visible = false;
 }
 if(step == 1) {
-	draw_text_transformed(415,740,"7",3,3,0);
-	draw_text_transformed(816,740,"5",3,3,0);
-	draw_text_transformed(1105,740,"2",3,3,0);
-	draw_text_transformed(1505,740,"0",3,3,0);
+	draw_text_transformed(415*ratio,740*ratio,"7",3*ratio,3*ratio,0);
+	draw_text_transformed(816*ratio,740*ratio,"5",3*ratio,3*ratio,0);
+	draw_text_transformed(1105*ratio,740*ratio,"2",3*ratio,3*ratio,0);
+	draw_text_transformed(1505*ratio,740*ratio,"0",3*ratio,3*ratio,0);
 	
-	draw_text_transformed(610,520,"5",3,3,0);
+	draw_text_transformed(610*ratio,520*ratio,"5",3*ratio,3*ratio,0);
 	
 	mask_tree.visible = false;
 }
 if(step == 2) {
-	draw_text_transformed(415,740,"7",3,3,0);
-	draw_text_transformed(816,740,"5",3,3,0);
-	draw_text_transformed(1105,740,"2",3,3,0);
-	draw_text_transformed(1505,740,"0",3,3,0);
+	draw_text_transformed(415*ratio,740*ratio,"7",3*ratio,3*ratio,0);
+	draw_text_transformed(816*ratio,740*ratio,"5",3*ratio,3*ratio,0);
+	draw_text_transformed(1105*ratio,740*ratio,"2",3*ratio,3*ratio,0);
+	draw_text_transformed(1505*ratio,740*ratio,"0",3*ratio,3*ratio,0);
 	
-	draw_text_transformed(610,520,"5",3,3,0);
-	draw_text_transformed(950,320,"2",3,3,0);
+	draw_text_transformed(610*ratio,520*ratio,"5",3*ratio,3*ratio,0);
+	draw_text_transformed(950*ratio,320*ratio,"2",3*ratio,3*ratio,0);
 	
 	mask_tree.visible = false;
 }
 if(step == 3) {
-	draw_text_transformed(415,740,"7",3,3,0);
-	draw_text_transformed(816,740,"5",3,3,0);
-	draw_text_transformed(1105,740,"2",3,3,0);
-	draw_text_transformed(1505,740,"0",3,3,0);
+	draw_text_transformed(415*ratio,740*ratio,"7",3*ratio,3*ratio,0);
+	draw_text_transformed(816*ratio,740*ratio,"5",3*ratio,3*ratio,0);
+	draw_text_transformed(1105*ratio,740*ratio,"2",3*ratio,3*ratio,0);
+	draw_text_transformed(1505*ratio,740*ratio,"0",3*ratio,3*ratio,0);
 	
-	draw_text_transformed(610,520,"5",3,3,0);
-	draw_text_transformed(1300,520,"2",3,3,0);
-	draw_text_transformed(950,320,"2",3,3,0);
+	draw_text_transformed(610*ratio,520*ratio,"5",3*ratio,3*ratio,0);
+	draw_text_transformed(1300*ratio,520*ratio,"2",3*ratio,3*ratio,0);
+	draw_text_transformed(950*ratio,320*ratio,"2",3*ratio,3*ratio,0);
 	
 	mask_tree.visible = false;
 }
 if(step >= 4) {
-	draw_text_transformed(415,740,"7",3,3,0);
-	draw_text_transformed(816,740,"5",3,3,0);
-	draw_text_transformed(1105,740,"2",3,3,0);
-	draw_text_transformed(1505,740,"0",3,3,0);
+	draw_text_transformed(415*ratio,740*ratio,"7",3*ratio,3*ratio,0);
+	draw_text_transformed(816*ratio,740*ratio,"5",3*ratio,3*ratio,0);
+	draw_text_transformed(110*ratio5,740*ratio,"2",3*ratio,3*ratio,0);
+	draw_text_transformed(1505*ratio,740*ratio,"0",3*ratio,3*ratio,0);
 	
-	draw_text_transformed(610,520,"5",3,3,0);
-	draw_text_transformed(1300,520,"2",3,3,0);
-	draw_text_transformed(950,320,"2",3,3,0);
+	draw_text_transformed(610*ratio,520*ratio,"5",3*ratio,3*ratio,0);
+	draw_text_transformed(1300*ratio,520*ratio,"2",3*ratio,3*ratio,0);
+	draw_text_transformed(950*ratio,320*ratio,"2",3*ratio,3*ratio,0);
 	
 	mask_tree.visible = true;
 }
@@ -62,6 +62,7 @@ if(step == 5) {
 }
 
 
-draw_text_transformed(10, 10, "Press right to continue, left to go backward", 3,3,0);
-draw_text_transformed(10, 80, "ALPHABETA", 3,3,0);
+draw_text_transformed(10*ratio, 10*ratio, "Press right to continue, left to go backward", 3*ratio,3*ratio,0);
+draw_text_transformed(10*ratio, 80*ratio, "ALPHABETA", 3*ratio,3*ratio,0);
 //draw_text_transformed(10, 50, "", 2,2,0);
+
