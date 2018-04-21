@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (global.id_room == 5){
+if (global.id_room == 5 || global.id_room == 6){
 	ma_vs_expert(id);
 }else if (global.versus && global.winner == 0){
 	if (global.rules){
@@ -9,7 +9,5 @@ if (global.id_room == 5){
 		global.rules = false;
 	}
 	ma_vs_random_looser(id);
-}else if (global.id_room == 6){
-	ma_vs_expert(id);
 }
 global.clickable = true;
