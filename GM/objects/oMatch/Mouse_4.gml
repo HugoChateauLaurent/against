@@ -5,11 +5,15 @@
 
 
 if(global.clickable) {
-	if (global.versus != 2){
-		ma_clic_vs(id);
-	}else if global.id_room == 5{// if we are in tutorial room
+	}if (global.id_room == 5){// if we are in tutorial room
+		show_debug_message("veleure du ma_clic_tuto");
+		show_debug_message(string(ma_clic_tuto(board)));
 		if (coordY == ma_clic_tuto(board)){
 			ma_clic_vs(id);
+			sgame_dialogue();
+		}else if (coordY == 0){
+			ma_clic_vs(id);
 		}
-	}
+	}else if (global.versus != 2){
+		ma_clic_vs(id);
 }

@@ -19,6 +19,7 @@ global.part_with_text = false;
 global.part_with_game = true;
 global.id_replique = 1;
 
+global.rules = false;
 
 /// scores
 global.winner = 0;
@@ -36,7 +37,8 @@ with(bob_matches){
 global.bob_move = false;
 global.dialog_box.sprite_index = sSpawnerNegatif;
 
-board = instance_create_depth(0,0,1000, oBoardMatches); //create board	
+
 global.dialog_box.visible = true;
+board = instance_create_depth(0,0,1000, oBoardMatches); //create board	
 
 

@@ -13,7 +13,7 @@ var color = global.j2_match_color_inactive;
 var r = irandom(2); /// number between 0 and 2 because we use it on id
 var modulo4 = (idLeft+1) mod 4;
 
-if (idLeft >1){
+if (idLeft > 0){
 	if ( modulo4 == 2){
 		r = 0;
 	}else if ( modulo4 == 3){

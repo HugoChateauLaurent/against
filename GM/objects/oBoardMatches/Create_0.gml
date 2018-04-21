@@ -3,7 +3,8 @@
 
 if (global.id_room == 5){
 	nb_match = 5;// number of mathes
-	tour = 0;
+	tour = 1;
+	global.id_replique = 15;
 }else{
 	nb_match = 21; // number of mathes
 	tour = -1;
