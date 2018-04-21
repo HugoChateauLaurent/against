@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "16c1642b-3cfd-42d5-985f-2a2c6f7bda97",
+            "Value": {
+                "id": "f74a2fec-7d22-49dd-9bb9-8a2f40cd85c9",
+                "resourcePath": "paths\\pMaxPart\\pMaxPart.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "18e8dd88-3d19-4b28-9763-a16415f2c93f",
             "Value": {
                 "id": "08cbeab4-aa60-461c-97fc-722fcd09447f",
@@ -239,6 +247,14 @@
             }
         },
         {
+            "Key": "3da25252-a58a-46a3-bcca-f0515e07bd56",
+            "Value": {
+                "id": "d2a92c1f-adba-4eba-889d-f8d5183c4a82",
+                "resourcePath": "rooms\\dialogueBethany\\dialogueBethany.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "3daca4e7-073a-42af-998a-c32fe9347c3d",
             "Value": {
                 "id": "9570d1db-91ec-4982-99d0-98e456710dab",
@@ -311,6 +327,14 @@
             }
         },
         {
+            "Key": "4f30233f-a15f-4482-bcd8-7e4f1dc31d54",
+            "Value": {
+                "id": "c1dfbee0-e99b-4d79-a81f-e99d7e19dd47",
+                "resourcePath": "rooms\\dialogueMax\\dialogueMax.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "509c5756-7b9b-4afd-8795-94a1737a357c",
             "Value": {
                 "id": "61b57b79-d587-41af-8211-f461f903d4eb",
@@ -372,6 +396,14 @@
                 "id": "1c53035d-e7b6-4afd-bee5-4d85b82b7251",
                 "resourcePath": "objects\\oBoard\\oBoard.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "62aa18ad-f08d-435a-922f-5f9a0aac7528",
+            "Value": {
+                "id": "caae0828-89c5-4769-8462-d37c844b6a6e",
+                "resourcePath": "rooms\\lastroom\\lastroom.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -468,6 +500,14 @@
                 "id": "5d35433a-a5fb-4aba-bb26-a1d722a141be",
                 "resourcePath": "options\\html5\\options_html5.yy",
                 "resourceType": "GMHtml5Options"
+            }
+        },
+        {
+            "Key": "76ddde37-64fe-426a-a69a-3227e8ef0dae",
+            "Value": {
+                "id": "45b1e484-c5b8-448c-87ca-e58b7619bca9",
+                "resourcePath": "rooms\\dialogueMax2\\dialogueMax2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1020,6 +1060,14 @@
                 "id": "d04b036f-c7ce-4a16-83fa-5ed4b09fc5d6",
                 "resourcePath": "scripts\\extract_best_paths\\extract_best_paths.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e136b6ee-9987-4971-9a2e-362862e23378",
+            "Value": {
+                "id": "e7fcfd7c-dfc4-498e-b301-29c393d8f734",
+                "resourcePath": "rooms\\dialogueMaxEtBethany\\dialogueMaxEtBethany.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

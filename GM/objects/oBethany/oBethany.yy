@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "oBethany",
     "eventList": [
-        
+        {
+            "id": "58d5b341-f93d-4ce8-8f36-d8939580b09b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "37f894b5-02dc-49f1-9ca9-e997487c4e2a"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

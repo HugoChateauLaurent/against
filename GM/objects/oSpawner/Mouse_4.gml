@@ -86,15 +86,23 @@ if (global.part_with_text){
 		case 40 : dialog_text = "E. S. : The knowledge base represents the facts you know about the world and the rules. The rules are given by a human expert in the field."; text_or_not = true; break;
 		case 41 : dialog_text = "E. S. : The inference engine allows inferences to be made by deciding which rules are satisfied by the facts and setting priorities, right. It produces new facts which are add to the knowledge base, right."; text_or_not = true; break;
 		case 42 : dialog_text = "E. S. : Inference engines operate primarily in one of two modes: forward chaining or backward chaining. The sequence forward begins with the known facts and affirms new facts."; text_or_not = true; break;
-		case 43 : dialog_text = "E.S. : The backward sequence begins with aims, and works backward to determine what facts need to be asserted in order for the aims to be achieved."; text_or_not = true; break;
-		case 44 : dialog_text = "E. S. : Unfortunately, an expert system would not be effective enough for this game because there are too many rules, right."; text_or_not = true; break;
-		case 45 : dialog_text = "E.S. : To have an effective expert system, the rules must be explicit about the world in which we find ourselves. Here, you can't tell what to do for every possible situation in the game, it would take too long..."; text_or_not = true; break;
+		case 43 : dialog_text = "E. S. : The backward sequence begins with aims, and works backward to determine what facts need to be asserted in order for the aims to be achieved."; text_or_not = true; break;
+		case 44 : dialog_text = "E. S. : Unfortunately, an expert system would not be effective enough for this game because there are too many possibilities, right."; text_or_not = true; break;
+		case 45 : dialog_text = "E. S. : To have an effective expert system, the rules must be explicit about the world in which we find ourselves. Here, you can't tell what to do for every possible situation in the game, it would take too long..."; text_or_not = true; break;
 		case 46 : dialog_text = "Bob : It doesn't matter! Now I really know what expert systems are."; text_or_not = true; break;
 		case 47 : dialog_text = "E. S. : I taught you everything I know. I'm sure you'll find someone who can teach you how to play this game not far from here, right. Good luck with that."; text_or_not = true; break;
 		case 48 : dialog_text = "Bob : I look forward to meeting them and learning new things! Thank you Mr Simon"; text_or_not = true; break;
 	
 		//Room9 : Arrivée dans le nouveau monde, rencontre avec Max
-		case 50 : dialog_text = "Bob : Wow, that looks cool in here, I'm sure I can find someone who can teach me how to play checkers! Hellooo! Anybody there?"; text_or_not = true; break;
+		case 50 : 
+			dialog_text = "Bob : Wow, that looks cool in here, I'm sure I can find someone who can teach me how to play checkers! Hellooo! Anybody there?";
+			max_1 = instance_create_depth(1200, 285, 0, oMax);
+			with (max_1) {
+				image_xscale = 0.4;
+				image_yscale = 0.4;
+			}
+			max_1.alarm[0] = room_speed * 1;
+			text_or_not = true; break;
 		case 51 : dialog_text = "Max : Hi ! My name is Max!"; text_or_not = true; break;
 		case 52 : dialog_text = "Bob : Hello ! I'm Bob ! Nice to meet you !"; text_or_not = true; break;
 		case 53 : dialog_text = "Max : I see it's a checkers game you have with you! I love this game, so, can you play it?"; text_or_not = true; break;
@@ -124,13 +132,26 @@ if (global.part_with_text){
 		case 71 : dialog_text = "Bob : Oh nice, I would like to know her secret ! Where can I find her ?"; text_or_not = true; break;
 		case 72 : dialog_text = "Max : He's not far from here, I can call him if you want ?"; text_or_not = true; break;
 		case 73 : dialog_text = "Bob : Uh... okay, let's go !"; text_or_not = true; break;
-		case 74 : dialog_text = "Max : Bethaaaaaaaa ? Could you come here please ?"; text_or_not = true; break;
+		case 74 : 
+			dialog_text = "Max : Bethaaaaaaaa ? Could you come here please ?"; 
+			text_or_not = true;
+			bethany = instance_create_depth(1000, 285, 0, oBethany);
+			with (bethany) {
+				image_xscale = 0.4;
+				image_yscale = 0.4;
+			}
+			bethany.alarm[0] = room_speed * 1;
+			break;
 		case 75 : dialog_text = "Bethany : What do you want Max ? I'm actually working..."; text_or_not = true; break;
 		case 76 : dialog_text = "Max : This is my friend Bob !"; text_or_not = true; break;
 		case 77 : dialog_text = "Bob : Hi !"; text_or_not = true; break;
 		case 78 : dialog_text = "Max : I explain to him how to play checkers with minimax ! So, can you explain to him your secret to be faster than me ?"; text_or_not = true; break;
 		case 79 : dialog_text = "Bethany : Why not... but only if you leave Max ! But only if you promise not to reveal my secret to Max !"; text_or_not = true; break;
-		case 80 : dialog_text = "Max : Don't worry Bethany, I'm outta here... And I will find your secret Betha, you'll see !"; text_or_not = true; break;
+		case 80 : 
+			dialog_text = "Max : Don't worry Bethany, I'm outta here... And I will find your secret Betha, you'll see !";
+			text_or_not = true; 
+			global.max_3.alarm[1] = room_speed * 1.2;
+			break;
 	
 		//Room14 : Explication alpha-beta
 		case 82 : dialog_text = "Bethany : So my secret is very simple actually. As my brother explained to you, the game is like a tree of possibilities and you have to make the best choice."; text_or_not = true; break;
@@ -153,7 +174,7 @@ if (global.part_with_text){
 		//Room18 : Fin du monde 2 et début du monde 3 en construction..
 		case 93 : dialog_text = "Bob : It's so cool !! I'm proud of us ! We learned a lot together!"; text_or_not = true; break;
 		// Attendre 1 sec, allumer la lumière de Bob avant d'afficher le dialogue
-		case 94 : dialog_text = "Bob : Oh... looks like there's a train to get to the next world but the station's under construction. :/ In the meantime we can review WINNING SOLUTIONS, EXPERT SYSTEMS, MINIMAX or ALPHA-BÊTA if you want?"; global.dialog_box.visible = false; text_or_not = true; break;
+		case 94 : dialog_text = "Bob : Oh... looks like there's a train to get to the next world but the station's under construction. I'm going to the station, Goodbye !"; global.dialog_box.visible = false; text_or_not = true; break;
 	
 		//Permet de changer de room
 		default : text_or_not = false; global.mask.timer = 20; global.mask.fading = true; global.dialog_box.visible = false; break;

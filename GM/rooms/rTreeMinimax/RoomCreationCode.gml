@@ -1,0 +1,1 @@
+global.id_room = 14;
