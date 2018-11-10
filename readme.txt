@@ -1,8 +1,9 @@
-Voici le code de notre projet innovant Against.
+This is the sourcecode for our Bachelor's degree "innovative project". AgAInst is a serious game whose aim is to teach adults and children basic knowledge about Artificial Intelligence.
 
-Etapes : 
+NB: this is an unfinished work and will probably remain one. Feel free to pursue this project.
 
-- Exécuter le .exe
-- Lancer le jeu
-- Appuyer sur espace pour régler la taille de la fenêtre. Une résolution 1920*1080 est conseillée
-- Appuyer sur la flèche droite
+Steps : 
+- Run .exe
+- Launch game
+- Press Space to set window size. A screen resolution of 1920*1080 is recommended.
+- Press the right arrow
