@@ -1,3 +1,5 @@
+# against
+
 This is the sourcecode for our Bachelor's degree "innovative project". AgAInst is a serious game whose aim is to teach adults and children basic knowledge about Artificial Intelligence.
 
 NB: this is an unfinished work and will probably remain one. Feel free to pursue this project.
